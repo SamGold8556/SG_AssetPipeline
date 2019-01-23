@@ -1,4 +1,4 @@
-﻿Log file open, 01/23/19 11:47:17
+﻿Log file open, 01/23/19 11:55:35
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
@@ -10,7 +10,7 @@ LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: SG_ICWhiteBox_001
 LogPlatformFile: Not using cached read wrapper
 LogTaskGraph: Started task graph with 5 named threads and 35 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.574885
+LogStats: Stats thread started at 0.590776
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: -7:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -93,7 +93,7 @@ LogPluginManager: Mounting plugin ProceduralMeshComponent
 LogPluginManager: Mounting plugin RuntimePhysXCooking
 LogPluginManager: Mounting plugin SteamVR
 LogPluginManager: Mounting plugin WindowsMoviePlayer
-LogStreaming: Display: Took  0.520s to configure plugins.
+LogStreaming: Display: Took  0.438s to configure plugins.
 LogInit: Using libcurl 7.55.1-DEV
 LogInit:  - built for x86_64-pc-win32
 LogInit:  - supports SSL with OpenSSL/1.0.2h
@@ -123,7 +123,7 @@ LogInit: Compiled (64-bit): Sep 17 2018 12:26:19
 LogInit: Compiled with Visual C++: 19.13.26129.00
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.20
-LogInit: Command Line: -EpicPortal -epicusername="SGold97" -epicuserid=3a349ace545745f3914b6a36540bcf58 -epiclocale=en-US
+LogInit: Command Line: -EpicPortal  -epicusername="SGold97" -epicuserid=3a349ace545745f3914b6a36540bcf58 -epiclocale=en-US
 LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
 LogDevObjectVersion: Number of dev versions registered: 20
@@ -147,420 +147,524 @@ LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC
 LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
 LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
 LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
-LogStreaming: Display: Took  0.009s to delete old logs.
+LogStreaming: Display: Took  0.008s to delete old logs.
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2019.01.23-18.47.18:155][  0]LogInit: Selected Device Profile: [Windows]
-[2019.01.23-18.47.18:155][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2019.01.23-18.47.18:191][  0]LogHAL: Display: Platform has ~ 8 GB [8429383680 / 8589934592 / 8], which maps to Default [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
-[2019.01.23-18.47.18:191][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
-[2019.01.23-18.47.18:191][  0]LogInit: Going up to parent DeviceProfile []
-[2019.01.23-18.47.18:193][  0]LogInit: Computer: DESKTOP-F6R62GP
-[2019.01.23-18.47.18:193][  0]LogInit: User: Owner
-[2019.01.23-18.47.18:193][  0]LogInit: CPU Page size=4096, Cores=6
-[2019.01.23-18.47.18:193][  0]LogInit: High frequency timer resolution =2.156251 MHz
-[2019.01.23-18.47.18:194][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
-[2019.01.23-18.47.18:194][  0]LogMemory: Platform Memory Stats for Windows
-[2019.01.23-18.47.18:194][  0]LogMemory: Process Physical Memory: 101.22 MB used, 101.22 MB peak
-[2019.01.23-18.47.18:194][  0]LogMemory: Process Virtual Memory: 86.01 MB used, 86.01 MB peak
-[2019.01.23-18.47.18:194][  0]LogMemory: Physical Memory: 5004.31 MB used,  3034.57 MB free, 8038.89 MB total
-[2019.01.23-18.47.18:194][  0]LogMemory: Virtual Memory: 4657.56 MB used,  3034.57 MB free, 134217728.00 MB total
-[2019.01.23-18.47.18:323][  0]LogInit: Using OS detected language (en-US).
-[2019.01.23-18.47.18:324][  0]LogInit: Using OS detected locale (en-US).
-[2019.01.23-18.47.18:326][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2019.01.23-18.47.19:196][  0]LogStreaming: Display: Took  0.874s to InitEngineTextLocalization.
-[2019.01.23-18.47.19:197][  0]LogInit: Setting process to per monitor DPI aware
-[2019.01.23-18.47.19:288][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2019.01.23-18.47.19:288][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2019.01.23-18.47.20:636][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2019.01.23-18.47.20:636][  0]LogD3D11RHI: D3D11 adapters:
-[2019.01.23-18.47.20:808][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1050' (Feature Level 11_0)
-[2019.01.23-18.47.20:808][  0]LogD3D11RHI:       4019/0/4019 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2019.01.23-18.47.20:852][  0]LogD3D11RHI:    1. 'Intel(R) UHD Graphics 630' (Feature Level 11_0)
-[2019.01.23-18.47.20:852][  0]LogD3D11RHI:       128/0/4019 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
-[2019.01.23-18.47.20:858][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2019.01.23-18.47.20:859][  0]LogD3D11RHI:       0/0/4019 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2019.01.23-18.47.20:859][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2019.01.23-18.47.21:031][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2019.01.23-18.47.21:031][  0]LogD3D11RHI:     GPU DeviceId: 0x1c8d (for the marketing name, search the web for "GPU Device Id")
-[2019.01.23-18.47.21:032][  0]LogWindows: EnumDisplayDevices:
-[2019.01.23-18.47.21:032][  0]LogWindows:    0. 'Intel(R) UHD Graphics 630' (P:1 D:1)
-[2019.01.23-18.47.21:033][  0]LogWindows:    1. 'Intel(R) UHD Graphics 630' (P:0 D:0)
-[2019.01.23-18.47.21:033][  0]LogWindows:    2. 'Intel(R) UHD Graphics 630' (P:0 D:0)
-[2019.01.23-18.47.21:034][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1050' (P:0 D:0)
-[2019.01.23-18.47.21:035][  0]LogWindows:    4. 'NVIDIA GeForce GTX 1050' (P:0 D:0)
-[2019.01.23-18.47.21:036][  0]LogWindows:    5. 'NVIDIA GeForce GTX 1050' (P:0 D:0)
-[2019.01.23-18.47.21:037][  0]LogWindows:    6. 'NVIDIA GeForce GTX 1050' (P:0 D:0)
-[2019.01.23-18.47.21:038][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
-[2019.01.23-18.47.21:038][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1050
-[2019.01.23-18.47.21:038][  0]LogD3D11RHI:   Driver Version: 416.16 (internal:25.21.14.1616, unified:416.16)
-[2019.01.23-18.47.21:038][  0]LogD3D11RHI:      Driver Date: 10-2-2018
-[2019.01.23-18.47.21:038][  0]LogRHI: Texture pool is 2813 MB (70% of 4019 MB)
-[2019.01.23-18.47.21:159][  0]LogD3D11RHI: Async texture creation enabled
-[2019.01.23-18.47.21:200][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
-[2019.01.23-18.47.21:203][  0]LogShaderCompilers: Guid format shader working directory is -30 characters bigger than the processId version (../../../../../../Users/Owner/Documents/SG_AssetPipeline/SG_ICWhiteBox_001/Intermediate/Shaders/WorkingDirectory/308548/).
-[2019.01.23-18.47.21:204][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Owner/AppData/Local/Temp/UnrealShaderWorkingDir/0A70973442F604EA81D9169ACB0055E9/'.
-[2019.01.23-18.47.22:057][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2019.01.23-18.47.22:102][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2019.01.23-18.47.22:153][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2019.01.23-18.47.22:189][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2019.01.23-18.47.22:226][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2019.01.23-18.47.22:270][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2019.01.23-18.47.22:303][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2019.01.23-18.47.22:337][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2019.01.23-18.47.22:355][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2019.01.23-18.47.22:561][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.01.23-18.47.22:561][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.01.23-18.47.22:561][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.01.23-18.47.22:561][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.01.23-18.47.22:561][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.01.23-18.47.22:561][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.01.23-18.47.22:561][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.01.23-18.47.22:562][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.01.23-18.47.22:562][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.01.23-18.47.22:562][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.01.23-18.47.22:562][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.01.23-18.47.22:562][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.01.23-18.47.22:562][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.01.23-18.47.22:562][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.01.23-18.47.22:562][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.01.23-18.47.22:562][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.01.23-18.47.22:562][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.01.23-18.47.22:562][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.01.23-18.47.22:568][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2019.01.23-18.47.22:688][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2019.01.23-18.47.22:688][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2019.01.23-18.47.22:762][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2019.01.23-18.47.22:762][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2019.01.23-18.47.22:796][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2019.01.23-18.47.22:834][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2019.01.23-18.47.22:877][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2019.01.23-18.47.22:924][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2019.01.23-18.47.22:951][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
-[2019.01.23-18.47.22:951][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2019.01.23-18.47.23:217][  0]LogXGEController: Cleaning working directory: C:/Users/Owner/AppData/Local/Temp/UnrealXGEWorkingDir/
-[2019.01.23-18.47.23:218][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2019.01.23-18.47.23:218][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2019.01.23-18.47.23:218][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2019.01.23-18.47.25:617][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2019.01.23-18.47.25:741][  0]LogDerivedDataCache: Loaded boot cache 0.12s 71MB C:/Users/Owner/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
-[2019.01.23-18.47.25:742][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Owner/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
-[2019.01.23-18.47.25:742][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Owner/Documents/SG_AssetPipeline/SG_ICWhiteBox_001/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2019.01.23-18.47.25:742][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2019.01.23-18.47.25:742][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Owner/Documents/SG_AssetPipeline/SG_ICWhiteBox_001/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2019.01.23-18.47.25:743][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2019.01.23-18.47.25:774][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2019.01.23-18.47.25:788][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Owner/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2019.01.23-18.47.25:788][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2019.01.23-18.47.25:788][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2019.01.23-18.47.25:830][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2019.01.23-18.47.25:833][  0]LogSlate: Using FreeType 2.6.0
-[2019.01.23-18.47.25:836][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2019.01.23-18.47.26:062][  0]LogAssetRegistry: FAssetRegistry took 0.0324 seconds to start up
-[2019.01.23-18.47.26:900][  0]LogInit: Selected Device Profile: [Windows]
-[2019.01.23-18.47.27:270][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2019.01.23-18.47.27:282][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2019.01.23-18.47.27:282][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
-[2019.01.23-18.47.27:282][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2019.01.23-18.47.27:282][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2019.01.23-18.47.27:329][  0]LogNetVersion: SG_ICWhiteBox_001 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 1353614274)
-[2019.01.23-18.47.29:070][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.234733 seconds
-[2019.01.23-18.47.29:083][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
-[2019.01.23-18.47.29:083][  0]LogUObjectAllocator: 6690864 out of 0 bytes used by permanent object pool.
-[2019.01.23-18.47.29:083][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2019.01.23-18.47.32:400][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2019.01.23-18.47.32:418][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2019.01.23-18.47.32:771][  0]SourceControl: Source control is disabled
-[2019.01.23-18.47.32:771][  0]SourceControl: Source control is disabled
-[2019.01.23-18.47.32:777][  0]SourceControl: Source control is disabled
-[2019.01.23-18.47.32:782][  0]SourceControl: Source control is disabled
-[2019.01.23-18.47.33:188][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2019.01.23-18.47.33:343][  0]LogOcInput: OculusInput pre-init called
-[2019.01.23-18.47.33:512][  0]LogEngine: Initializing Engine...
-[2019.01.23-18.47.33:515][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2019.01.23-18.47.33:521][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
-[2019.01.23-18.47.33:521][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2019.01.23-18.47.33:522][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
-[2019.01.23-18.47.33:522][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2019.01.23-18.47.34:092][  0]LogInit: Initializing FReadOnlyCVARCache
-[2019.01.23-18.47.34:126][  0]LogAIModule: Creating AISystem for world Untitled
-[2019.01.23-18.47.34:291][  0]LogInit: XAudio2 using 'Speakers (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2019.01.23-18.47.34:487][  0]LogInit: FAudioDevice initialized.
-[2019.01.23-18.47.34:488][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
-[2019.01.23-18.47.34:616][  0]LogDerivedDataCache: Saved boot cache 0.13s 71MB C:/Users/Owner/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
-[2019.01.23-18.47.34:641][  0]LogInit: Texture streaming: Enabled
-[2019.01.23-18.47.34:687][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2019.01.23-18.47.34:687][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=Crashed, SessionId={7B428994-4E9E-6517-1C1B-19B1F20B74B8}
-[2019.01.23-18.47.34:835][  0]LogInit: Transaction tracking system initialized
-[2019.01.23-18.47.34:904][  0]BlueprintLog: New page: Editor Load
-[2019.01.23-18.47.35:147][  0]LocalizationService: Localization service is disabled
-[2019.01.23-18.47.35:951][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2019.01.23-18.47.35:952][  0]LogCook: Display: Mobile HDR setting 1
-[2019.01.23-18.47.35:952][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Owner/Documents/SG_AssetPipeline/SG_ICWhiteBox_001/Content/' took 0.01s
-[2019.01.23-18.47.35:952][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2019.01.23-18.47.35:952][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
-[2019.01.23-18.47.35:952][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2019.01.23-18.47.35:952][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
-[2019.01.23-18.47.35:952][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2019.01.23-18.47.36:328][  0]SourceControl: Source control is disabled
-[2019.01.23-18.47.36:328][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
-[2019.01.23-18.47.36:329][  0]LightingResults: New page: Lighting Build
-[2019.01.23-18.47.36:338][  0]MapCheck: New page: Map Check
-[2019.01.23-18.47.36:338][  0]LightingResults: New page: Lighting Build
-[2019.01.23-18.47.36:861][  0]LogAIModule: Creating AISystem for world Untitled_1
-[2019.01.23-18.47.36:881][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2019.01.23-18.47.36:951][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2019.01.23-18.47.37:313][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 363.019ms to complete.
-[2019.01.23-18.47.37:314][  0]LogFileHelpers: Loading map 'Template_Default' took 0.986
-[2019.01.23-18.47.37:506][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.01.23-18.47.37:531][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.01.23-18.47.37:556][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.01.23-18.47.37:580][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.01.23-18.47.37:604][  0]LogCollectionManager: Loaded 0 collections in 0.005176 seconds
-[2019.01.23-18.47.37:667][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Owner/Documents/SG_AssetPipeline/SG_ICWhiteBox_001/Saved/Collections/' took 0.01s
-[2019.01.23-18.47.37:667][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Owner/Documents/SG_AssetPipeline/SG_ICWhiteBox_001/Content/Developers/Owner/Collections/' took 0.01s
-[2019.01.23-18.47.37:667][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Owner/Documents/SG_AssetPipeline/SG_ICWhiteBox_001/Content/Collections/' took 0.01s
-[2019.01.23-18.47.37:668][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
-[2019.01.23-18.47.37:694][  0]LogContentBrowser: Native class hierarchy populated in 0.0256 seconds. Added 2572 classes and 603 folders.
-[2019.01.23-18.47.37:719][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0008 seconds. Added 0 classes and 0 folders.
-[2019.01.23-18.47.37:927][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
-[2019.01.23-18.47.37:943][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
-[2019.01.23-18.47.37:981][  0]LogSlate: Took 0.000901 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2019.01.23-18.47.37:987][  0]LogSlate: Took 0.001372 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2019.01.23-18.47.38:000][  0]LogSlate: Took 0.000881 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2019.01.23-18.47.38:194][  0]LogRenderer: Reallocating scene render targets to support 964x436 Format 10 NumSamples 1 (Frame:1).
-[2019.01.23-18.47.38:625][  0]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.01.23-18.47.38:691][  0]LogSlate: Window 'Tutorials' being destroyed
-[2019.01.23-18.47.38:736][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0006 seconds. Added 0 classes and 0 folders.
-[2019.01.23-18.47.38:736][  0]LogLoad: (Engine Initialization) Total time: 25.03 seconds
-[2019.01.23-18.47.38:736][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2019.01.23-18.47.38:761][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2019.01.23-18.47.38:788][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2019.01.23-18.47.38:898][  2]LogAssetRegistry: Asset discovery search completed in 12.8585 seconds
-[2019.01.23-18.47.38:901][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
-[2019.01.23-18.47.38:902][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000127 seconds (updated 0 objects)
-[2019.01.23-18.47.42:871][121]LogSlate: Took 0.001201 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2019.01.23-18.48.03:005][361]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.01.23-18.48.03:236][363]LogSlate: Took 0.000570 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2019.01.23-18.48.04:319][363]LogAIModule: Creating AISystem for world SG_ICWBox_002
-[2019.01.23-18.48.04:471][363]LogAssetEditorManager: Opening Asset editor for World /Game/SG_ICWBox_002.SG_ICWBox_002
-[2019.01.23-18.48.04:556][363]Cmd: MAP LOAD FILE="../../../../../../Users/Owner/Documents/SG_AssetPipeline/SG_ICWhiteBox_001/Content/SG_ICWBox_002.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2019.01.23-18.48.04:556][363]LightingResults: New page: Lighting Build
-[2019.01.23-18.48.04:558][363]LoadErrors: New page: Loading map: SG_ICWBox_002.umap
-[2019.01.23-18.48.04:558][363]MapCheck: New page: Map Check
-[2019.01.23-18.48.04:558][363]LightingResults: New page: Lighting Build
-[2019.01.23-18.48.04:648][363]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2019.01.23-18.48.04:774][363]Cmd: MAP CHECKDEP NOCLEARLOG
-[2019.01.23-18.48.05:259][363]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 484.169ms to complete.
-[2019.01.23-18.48.05:262][363]LogFileHelpers: Loading map 'SG_ICWBox_002' took 0.708
-[2019.01.23-18.48.16:784][635]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.01.23-18.48.16:880][635]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SG_ICWBox_002" FILE="../../../../../../Users/Owner/Documents/SG_AssetPipeline/SG_ICWhiteBox_001/Content/SG_ICWBox_002.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2019.01.23-18.48.19:829][635]LogSavePackage: Moving '../../../../../../Users/Owner/Documents/SG_AssetPipeline/SG_ICWhiteBox_001/Saved/SG_ICWBox_00242BE697A49481BD2814986BE0BE4ED95.tmp' to '../../../../../../Users/Owner/Documents/SG_AssetPipeline/SG_ICWhiteBox_001/Content/SG_ICWBox_002.umap'
-[2019.01.23-18.48.19:900][635]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SG_ICWBox_002_BuiltData" FILE="../../../../../../Users/Owner/Documents/SG_AssetPipeline/SG_ICWhiteBox_001/Content/SG_ICWBox_002_BuiltData.uasset" SILENT=true
-[2019.01.23-18.48.19:965][635]LogSavePackage: Moving '../../../../../../Users/Owner/Documents/SG_AssetPipeline/SG_ICWhiteBox_001/Saved/SG_ICWBox_002_BuiltData067AE65A43678720FF5A46BEA640BCB0.tmp' to '../../../../../../Users/Owner/Documents/SG_AssetPipeline/SG_ICWhiteBox_001/Content/SG_ICWBox_002_BuiltData.uasset'
-[2019.01.23-18.48.50:323][424]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.01.23-18.49.44:010][791]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.01.23-18.49.44:096][791]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SG_ICWBox_002" FILE="../../../../../../Users/Owner/Documents/SG_AssetPipeline/SG_ICWhiteBox_001/Content/SG_ICWBox_002.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2019.01.23-18.49.47:084][791]LogSavePackage: Moving '../../../../../../Users/Owner/Documents/SG_AssetPipeline/SG_ICWhiteBox_001/Saved/SG_ICWBox_002053C0D4D44EF940FE4D69DB47F588F01.tmp' to '../../../../../../Users/Owner/Documents/SG_AssetPipeline/SG_ICWhiteBox_001/Content/SG_ICWBox_002.umap'
-[2019.01.23-18.49.47:161][791]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SG_ICWBox_002_BuiltData" FILE="../../../../../../Users/Owner/Documents/SG_AssetPipeline/SG_ICWhiteBox_001/Content/SG_ICWBox_002_BuiltData.uasset" SILENT=true
-[2019.01.23-18.49.47:223][791]LogSavePackage: Moving '../../../../../../Users/Owner/Documents/SG_AssetPipeline/SG_ICWhiteBox_001/Saved/SG_ICWBox_002_BuiltData6CEAFD4F4664651EEAF206A679461555.tmp' to '../../../../../../Users/Owner/Documents/SG_AssetPipeline/SG_ICWhiteBox_001/Content/SG_ICWBox_002_BuiltData.uasset'
-[2019.01.23-18.50.29:533][993]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2019.01.23-18.50.32:410][ 79]Cmd: TRANSACTION UNDO
-[2019.01.23-18.50.32:410][ 79]LogEditorTransaction: Undo Move Actors
-[2019.01.23-18.50.33:279][ 79]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Street_36.BrushComponent0) Component already registered.
-[2019.01.23-18.50.33:286][ 79]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Street_9.BrushComponent0) Component already registered.
-[2019.01.23-18.50.33:371][ 79]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Street_13.BrushComponent0) Component already registered.
-[2019.01.23-18.50.33:376][ 79]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Sidewalk_34.BrushComponent0) Component already registered.
-[2019.01.23-18.50.33:384][ 79]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Street_53.BrushComponent0) Component already registered.
-[2019.01.23-18.50.33:388][ 79]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush198.BrushComponent0) Component already registered.
-[2019.01.23-18.50.33:397][ 79]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Sidewalk_69.BrushComponent0) Component already registered.
-[2019.01.23-18.50.33:408][ 79]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Box_BenchSide_10.BrushComponent0) Component already registered.
-[2019.01.23-18.50.33:419][ 79]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Box_BenchSeat_1.BrushComponent0) Component already registered.
-[2019.01.23-18.50.33:429][ 79]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Street_133.BrushComponent0) Component already registered.
-[2019.01.23-18.50.33:434][ 79]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush116.BrushComponent0) Component already registered.
-[2019.01.23-18.50.33:437][ 79]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush93.BrushComponent0) Component already registered.
-[2019.01.23-18.50.33:440][ 79]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush97.BrushComponent0) Component already registered.
-[2019.01.23-18.50.33:443][ 79]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush157.BrushComponent0) Component already registered.
-[2019.01.23-18.50.33:447][ 79]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush161.BrushComponent0) Component already registered.
-[2019.01.23-18.50.33:450][ 79]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush138.BrushComponent0) Component already registered.
-[2019.01.23-18.50.33:454][ 79]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Street_142.BrushComponent0) Component already registered.
-[2019.01.23-18.50.33:645][ 79]Cmd: TRANSACTION UNDO
-[2019.01.23-18.50.33:645][ 79]LogEditorTransaction: Undo Move Actors
-[2019.01.23-18.50.34:351][ 79]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Sidewalk_47.BrushComponent0) Component already registered.
-[2019.01.23-18.50.34:358][ 79]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush23.BrushComponent0) Component already registered.
-[2019.01.23-18.50.34:452][ 79]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Street_38.BrushComponent0) Component already registered.
-[2019.01.23-18.50.34:461][ 79]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Sidewalk_34.BrushComponent0) Component already registered.
-[2019.01.23-18.50.34:468][ 79]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Street_53.BrushComponent0) Component already registered.
-[2019.01.23-18.50.34:473][ 79]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush202.BrushComponent0) Component already registered.
-[2019.01.23-18.50.34:477][ 79]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Street_168.BrushComponent0) Component already registered.
-[2019.01.23-18.50.34:481][ 79]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Street_160.BrushComponent0) Component already registered.
-[2019.01.23-18.50.34:485][ 79]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush180.BrushComponent0) Component already registered.
-[2019.01.23-18.50.34:487][ 79]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Box_BenchSide_10.BrushComponent0) Component already registered.
-[2019.01.23-18.50.34:494][ 79]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Box_BenchSeat_1.BrushComponent0) Component already registered.
-[2019.01.23-18.50.34:513][ 79]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush157.BrushComponent0) Component already registered.
-[2019.01.23-18.50.34:517][ 79]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush161.BrushComponent0) Component already registered.
-[2019.01.23-18.50.34:521][ 79]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush138.BrushComponent0) Component already registered.
-[2019.01.23-18.50.34:525][ 79]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Street_142.BrushComponent0) Component already registered.
-[2019.01.23-18.50.34:689][ 79]Cmd: TRANSACTION UNDO
-[2019.01.23-18.50.34:689][ 79]LogEditorTransaction: Undo Select Brush Surface
-[2019.01.23-18.50.37:674][152]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (mann)
-[2019.01.23-18.50.45:311][379]Cmd: TRANSACTION UNDO
-[2019.01.23-18.50.45:311][379]LogEditorTransaction: Undo Move Actors
-[2019.01.23-18.51.00:462][820]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.01.23-18.51.17:551][241]Cmd: BRUSH ADD SELECTNEWBRUSH
-[2019.01.23-18.52.46:594][897]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.01.23-18.53.12:748][326]Cmd: TRANSACTION UNDO
-[2019.01.23-18.53.12:748][326]LogEditorTransaction: Undo Edit Y
-[2019.01.23-18.53.13:650][326]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Street_95.BrushComponent0) Component already registered.
-[2019.01.23-18.53.13:655][326]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Street_105.BrushComponent0) Component already registered.
-[2019.01.23-18.53.13:666][326]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush79.BrushComponent0) Component already registered.
-[2019.01.23-18.53.13:671][326]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush42.BrushComponent0) Component already registered.
-[2019.01.23-18.53.13:673][326]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush64.BrushComponent0) Component already registered.
-[2019.01.23-18.53.13:676][326]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Sidewalk_16.BrushComponent0) Component already registered.
-[2019.01.23-18.53.13:680][326]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Street_29.BrushComponent0) Component already registered.
-[2019.01.23-18.53.13:736][326]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Sidewalk_31.BrushComponent0) Component already registered.
-[2019.01.23-18.53.13:741][326]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Street_46.BrushComponent0) Component already registered.
-[2019.01.23-18.53.13:744][326]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Street_48.BrushComponent0) Component already registered.
-[2019.01.23-18.53.13:746][326]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush198.BrushComponent0) Component already registered.
-[2019.01.23-18.53.13:750][326]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Sidewalk_69.BrushComponent0) Component already registered.
-[2019.01.23-18.53.13:757][326]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.SphereBrush3.BrushComponent0) Component already registered.
-[2019.01.23-18.53.13:773][326]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Street_127.BrushComponent0) Component already registered.
-[2019.01.23-18.53.13:776][326]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush157.BrushComponent0) Component already registered.
-[2019.01.23-18.53.13:779][326]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush161.BrushComponent0) Component already registered.
-[2019.01.23-18.53.13:936][326]Cmd: TRANSACTION UNDO
-[2019.01.23-18.53.13:936][326]LogEditorTransaction: Undo Edit Z
-[2019.01.23-18.53.14:592][326]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Street_95.BrushComponent0) Component already registered.
-[2019.01.23-18.53.14:595][326]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Street_105.BrushComponent0) Component already registered.
-[2019.01.23-18.53.14:603][326]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush79.BrushComponent0) Component already registered.
-[2019.01.23-18.53.14:607][326]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush42.BrushComponent0) Component already registered.
-[2019.01.23-18.53.14:609][326]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush64.BrushComponent0) Component already registered.
-[2019.01.23-18.53.14:612][326]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Sidewalk_16.BrushComponent0) Component already registered.
-[2019.01.23-18.53.14:615][326]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Street_29.BrushComponent0) Component already registered.
-[2019.01.23-18.53.14:674][326]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Sidewalk_31.BrushComponent0) Component already registered.
-[2019.01.23-18.53.14:680][326]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Street_46.BrushComponent0) Component already registered.
-[2019.01.23-18.53.14:684][326]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Street_48.BrushComponent0) Component already registered.
-[2019.01.23-18.53.14:685][326]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush198.BrushComponent0) Component already registered.
-[2019.01.23-18.53.14:690][326]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Sidewalk_69.BrushComponent0) Component already registered.
-[2019.01.23-18.53.14:696][326]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.SphereBrush3.BrushComponent0) Component already registered.
-[2019.01.23-18.53.14:716][326]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Street_127.BrushComponent0) Component already registered.
-[2019.01.23-18.53.14:720][326]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush157.BrushComponent0) Component already registered.
-[2019.01.23-18.53.14:723][326]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush161.BrushComponent0) Component already registered.
-[2019.01.23-18.53.16:448][339]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
-[2019.01.23-18.53.16:949][340]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
-[2019.01.23-18.53.17:451][340]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
-[2019.01.23-18.53.17:950][340]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
-[2019.01.23-18.53.18:450][340]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
-[2019.01.23-18.53.18:951][340]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
-[2019.01.23-18.53.19:449][340]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
-[2019.01.23-18.53.19:950][340]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
-[2019.01.23-18.53.20:449][340]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
-[2019.01.23-18.53.20:951][340]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
-[2019.01.23-18.53.21:450][340]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
-[2019.01.23-18.53.21:950][340]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
-[2019.01.23-18.53.22:450][340]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
-[2019.01.23-18.53.22:950][340]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
-[2019.01.23-18.53.23:450][340]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
-[2019.01.23-18.53.23:951][340]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
-[2019.01.23-18.53.24:451][340]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
-[2019.01.23-18.53.24:950][340]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
-[2019.01.23-18.53.25:450][340]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
-[2019.01.23-18.53.25:950][340]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
-[2019.01.23-18.53.26:451][340]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
-[2019.01.23-18.53.26:951][340]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
-[2019.01.23-18.53.27:451][340]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
-[2019.01.23-18.53.27:951][340]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
-[2019.01.23-18.53.28:450][340]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
-[2019.01.23-18.53.28:951][340]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
-[2019.01.23-18.53.29:451][340]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
-[2019.01.23-18.53.29:952][340]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
-[2019.01.23-18.53.30:451][340]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
-[2019.01.23-18.53.30:952][340]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
-[2019.01.23-18.53.31:450][340]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
-[2019.01.23-18.53.31:951][340]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
-[2019.01.23-18.53.32:451][340]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
-[2019.01.23-18.53.32:950][340]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
-[2019.01.23-18.53.33:452][340]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
-[2019.01.23-18.53.33:951][340]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
-[2019.01.23-18.53.34:451][340]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
-[2019.01.23-18.53.34:951][340]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
-[2019.01.23-18.53.35:451][340]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
-[2019.01.23-18.53.35:951][340]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
-[2019.01.23-18.53.36:451][340]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
-[2019.01.23-18.53.36:950][340]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
-[2019.01.23-18.53.37:451][340]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
-[2019.01.23-18.53.37:952][340]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
-[2019.01.23-18.53.38:452][340]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
-[2019.01.23-18.53.38:951][340]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
-[2019.01.23-18.53.39:451][340]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
-[2019.01.23-18.53.39:951][340]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
-[2019.01.23-18.53.40:451][340]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
-[2019.01.23-18.53.40:951][340]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
-[2019.01.23-18.53.41:451][340]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
-[2019.01.23-18.53.41:951][340]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
-[2019.01.23-18.53.42:452][340]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
-[2019.01.23-18.53.42:952][340]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
-[2019.01.23-18.53.43:451][340]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
-[2019.01.23-18.53.43:951][340]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
-[2019.01.23-18.53.44:452][340]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
-[2019.01.23-18.53.44:951][340]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
-[2019.01.23-18.53.45:452][340]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
-[2019.01.23-18.53.45:952][340]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
-[2019.01.23-18.53.46:451][340]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
-[2019.01.23-18.53.46:951][340]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
-[2019.01.23-18.53.47:453][340]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
-[2019.01.23-18.53.47:952][340]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
-[2019.01.23-18.53.48:451][340]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
-[2019.01.23-18.53.48:952][340]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
-[2019.01.23-18.53.49:453][340]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
-[2019.01.23-18.53.49:953][340]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
-[2019.01.23-18.53.50:451][340]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
-[2019.01.23-18.53.50:951][340]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
-[2019.01.23-18.53.51:452][340]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
-[2019.01.23-18.53.51:953][340]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
-[2019.01.23-18.53.52:452][340]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
-[2019.01.23-18.53.52:952][340]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
-[2019.01.23-18.53.53:453][340]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
-[2019.01.23-18.53.53:952][340]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
-[2019.01.23-18.53.54:454][340]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
-[2019.01.23-18.53.54:953][340]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
-[2019.01.23-18.53.55:453][340]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
-[2019.01.23-18.53.55:461][340]LogD3D11RHI: Error: Result failed 
+[2019.01.23-18.55.36:422][  0]LogInit: Selected Device Profile: [Windows]
+[2019.01.23-18.55.36:422][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.01.23-18.55.36:445][  0]LogHAL: Display: Platform has ~ 8 GB [8429383680 / 8589934592 / 8], which maps to Default [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.01.23-18.55.36:446][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2019.01.23-18.55.36:446][  0]LogInit: Going up to parent DeviceProfile []
+[2019.01.23-18.55.36:447][  0]LogInit: Computer: DESKTOP-F6R62GP
+[2019.01.23-18.55.36:447][  0]LogInit: User: Owner
+[2019.01.23-18.55.36:447][  0]LogInit: CPU Page size=4096, Cores=6
+[2019.01.23-18.55.36:447][  0]LogInit: High frequency timer resolution =2.156251 MHz
+[2019.01.23-18.55.36:448][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2019.01.23-18.55.36:448][  0]LogMemory: Platform Memory Stats for Windows
+[2019.01.23-18.55.36:448][  0]LogMemory: Process Physical Memory: 101.40 MB used, 101.40 MB peak
+[2019.01.23-18.55.36:448][  0]LogMemory: Process Virtual Memory: 86.06 MB used, 86.06 MB peak
+[2019.01.23-18.55.36:448][  0]LogMemory: Physical Memory: 5671.86 MB used,  2367.02 MB free, 8038.89 MB total
+[2019.01.23-18.55.36:448][  0]LogMemory: Virtual Memory: 4657.56 MB used,  2367.02 MB free, 134217728.00 MB total
+[2019.01.23-18.55.36:527][  0]LogInit: Using OS detected language (en-US).
+[2019.01.23-18.55.36:527][  0]LogInit: Using OS detected locale (en-US).
+[2019.01.23-18.55.36:528][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2019.01.23-18.55.37:358][  0]LogStreaming: Display: Took  0.832s to InitEngineTextLocalization.
+[2019.01.23-18.55.37:359][  0]LogInit: Setting process to per monitor DPI aware
+[2019.01.23-18.55.37:447][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.01.23-18.55.37:447][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.01.23-18.55.38:405][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.01.23-18.55.38:405][  0]LogD3D11RHI: D3D11 adapters:
+[2019.01.23-18.55.38:439][  0]LogD3D11RHI:    0. 'Intel(R) UHD Graphics 630' (Feature Level 11_0)
+[2019.01.23-18.55.38:439][  0]LogD3D11RHI:       128/0/4019 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x8086
+[2019.01.23-18.55.38:625][  0]LogD3D11RHI:    1. 'NVIDIA GeForce GTX 1050' (Feature Level 11_0)
+[2019.01.23-18.55.38:625][  0]LogD3D11RHI:       4019/0/4019 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x10de
+[2019.01.23-18.55.38:630][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.01.23-18.55.38:630][  0]LogD3D11RHI:       0/0/4019 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.01.23-18.55.38:630][  0]LogD3D11RHI: Chosen D3D11 Adapter: 1
+[2019.01.23-18.55.38:734][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.01.23-18.55.38:734][  0]LogD3D11RHI:     GPU DeviceId: 0x1c8d (for the marketing name, search the web for "GPU Device Id")
+[2019.01.23-18.55.38:735][  0]LogWindows: EnumDisplayDevices:
+[2019.01.23-18.55.38:735][  0]LogWindows:    0. 'Intel(R) UHD Graphics 630' (P:1 D:1)
+[2019.01.23-18.55.38:736][  0]LogWindows:    1. 'Intel(R) UHD Graphics 630' (P:0 D:0)
+[2019.01.23-18.55.38:736][  0]LogWindows:    2. 'Intel(R) UHD Graphics 630' (P:0 D:0)
+[2019.01.23-18.55.38:737][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1050' (P:0 D:0)
+[2019.01.23-18.55.38:738][  0]LogWindows:    4. 'NVIDIA GeForce GTX 1050' (P:0 D:0)
+[2019.01.23-18.55.38:739][  0]LogWindows:    5. 'NVIDIA GeForce GTX 1050' (P:0 D:0)
+[2019.01.23-18.55.38:739][  0]LogWindows:    6. 'NVIDIA GeForce GTX 1050' (P:0 D:0)
+[2019.01.23-18.55.38:740][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2019.01.23-18.55.38:740][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1050
+[2019.01.23-18.55.38:740][  0]LogD3D11RHI:   Driver Version: 416.16 (internal:25.21.14.1616, unified:416.16)
+[2019.01.23-18.55.38:740][  0]LogD3D11RHI:      Driver Date: 10-2-2018
+[2019.01.23-18.55.38:740][  0]LogRHI: Texture pool is 2813 MB (70% of 4019 MB)
+[2019.01.23-18.55.38:877][  0]LogD3D11RHI: Async texture creation enabled
+[2019.01.23-18.55.38:922][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2019.01.23-18.55.38:924][  0]LogShaderCompilers: Guid format shader working directory is -29 characters bigger than the processId version (../../../../../../Users/Owner/Documents/SG_AssetPipeline/SG_ICWhiteBox_001/Intermediate/Shaders/WorkingDirectory/12496/).
+[2019.01.23-18.55.38:924][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Owner/AppData/Local/Temp/UnrealShaderWorkingDir/8ED0CCCD4B92D5C10942A2ABEC7BD787/'.
+[2019.01.23-18.55.39:784][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2019.01.23-18.55.39:827][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2019.01.23-18.55.39:863][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2019.01.23-18.55.39:907][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2019.01.23-18.55.39:943][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2019.01.23-18.55.39:981][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2019.01.23-18.55.40:021][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2019.01.23-18.55.40:060][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2019.01.23-18.55.40:078][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2019.01.23-18.55.40:317][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.23-18.55.40:318][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.23-18.55.40:318][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.23-18.55.40:318][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.23-18.55.40:318][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.23-18.55.40:318][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.23-18.55.40:318][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.23-18.55.40:318][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.23-18.55.40:318][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.23-18.55.40:318][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.23-18.55.40:318][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.23-18.55.40:318][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.23-18.55.40:318][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.23-18.55.40:318][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.23-18.55.40:318][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.23-18.55.40:318][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.23-18.55.40:318][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.23-18.55.40:318][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.23-18.55.40:325][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2019.01.23-18.55.40:447][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.01.23-18.55.40:447][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.01.23-18.55.40:513][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.01.23-18.55.40:513][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.01.23-18.55.40:547][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2019.01.23-18.55.40:582][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2019.01.23-18.55.40:616][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2019.01.23-18.55.40:652][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2019.01.23-18.55.40:681][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2019.01.23-18.55.40:681][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.01.23-18.55.40:912][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.01.23-18.55.40:912][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.01.23-18.55.40:912][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.01.23-18.55.43:488][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.01.23-18.55.43:616][  0]LogDerivedDataCache: Loaded boot cache 0.13s 71MB C:/Users/Owner/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.01.23-18.55.43:618][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Owner/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2019.01.23-18.55.43:618][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Owner/Documents/SG_AssetPipeline/SG_ICWhiteBox_001/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.01.23-18.55.43:618][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.01.23-18.55.43:618][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Owner/Documents/SG_AssetPipeline/SG_ICWhiteBox_001/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.01.23-18.55.43:618][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.01.23-18.55.43:648][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.01.23-18.55.43:662][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Owner/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.01.23-18.55.43:662][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.01.23-18.55.43:662][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.01.23-18.55.43:706][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.01.23-18.55.43:709][  0]LogSlate: Using FreeType 2.6.0
+[2019.01.23-18.55.43:712][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.01.23-18.55.44:036][  0]LogAssetRegistry: FAssetRegistry took 0.0426 seconds to start up
+[2019.01.23-18.55.45:025][  0]LogInit: Selected Device Profile: [Windows]
+[2019.01.23-18.55.45:400][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2019.01.23-18.55.45:414][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2019.01.23-18.55.45:414][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.01.23-18.55.45:414][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.01.23-18.55.45:414][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2019.01.23-18.55.45:465][  0]LogNetVersion: SG_ICWhiteBox_001 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 1353614274)
+[2019.01.23-18.55.47:097][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.259071 seconds
+[2019.01.23-18.55.47:111][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2019.01.23-18.55.47:111][  0]LogUObjectAllocator: 6690864 out of 0 bytes used by permanent object pool.
+[2019.01.23-18.55.47:111][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.01.23-18.55.51:042][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.01.23-18.55.51:060][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.01.23-18.55.51:435][  0]SourceControl: Source control is disabled
+[2019.01.23-18.55.51:436][  0]SourceControl: Source control is disabled
+[2019.01.23-18.55.51:446][  0]SourceControl: Source control is disabled
+[2019.01.23-18.55.51:452][  0]SourceControl: Source control is disabled
+[2019.01.23-18.55.51:846][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.01.23-18.55.52:023][  0]LogOcInput: OculusInput pre-init called
+[2019.01.23-18.55.52:198][  0]LogEngine: Initializing Engine...
+[2019.01.23-18.55.52:200][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.01.23-18.55.52:204][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.01.23-18.55.52:204][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.01.23-18.55.52:204][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.01.23-18.55.52:204][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.01.23-18.55.52:768][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.01.23-18.55.52:810][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.01.23-18.55.52:956][  0]LogInit: XAudio2 using 'Speakers (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.01.23-18.55.53:145][  0]LogInit: FAudioDevice initialized.
+[2019.01.23-18.55.53:146][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.01.23-18.55.53:278][  0]LogDerivedDataCache: Saved boot cache 0.13s 71MB C:/Users/Owner/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.01.23-18.55.53:278][  0]LogInit: Texture streaming: Enabled
+[2019.01.23-18.55.53:325][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.01.23-18.55.53:456][  0]LogInit: Transaction tracking system initialized
+[2019.01.23-18.55.53:527][  0]BlueprintLog: New page: Editor Load
+[2019.01.23-18.55.53:848][  0]LocalizationService: Localization service is disabled
+[2019.01.23-18.55.54:730][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.01.23-18.55.54:731][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Owner/Documents/SG_AssetPipeline/SG_ICWhiteBox_001/Content/' took 0.01s
+[2019.01.23-18.55.54:731][  0]LogCook: Display: Mobile HDR setting 1
+[2019.01.23-18.55.54:731][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2019.01.23-18.55.54:731][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.01.23-18.55.54:731][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.01.23-18.55.54:731][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.01.23-18.55.54:731][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.01.23-18.55.55:102][  0]SourceControl: Source control is disabled
+[2019.01.23-18.55.55:102][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.01.23-18.55.55:103][  0]LightingResults: New page: Lighting Build
+[2019.01.23-18.55.55:110][  0]MapCheck: New page: Map Check
+[2019.01.23-18.55.55:110][  0]LightingResults: New page: Lighting Build
+[2019.01.23-18.55.55:735][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2019.01.23-18.55.55:764][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.01.23-18.55.55:833][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.01.23-18.55.56:189][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 355.217ms to complete.
+[2019.01.23-18.55.56:189][  0]LogFileHelpers: Loading map 'Template_Default' took 1.088
+[2019.01.23-18.55.56:483][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.23-18.55.56:511][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.23-18.55.56:539][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.23-18.55.56:567][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.23-18.55.56:596][  0]LogCollectionManager: Loaded 0 collections in 0.005994 seconds
+[2019.01.23-18.55.56:652][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Owner/Documents/SG_AssetPipeline/SG_ICWhiteBox_001/Saved/Collections/' took 0.01s
+[2019.01.23-18.55.56:652][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Owner/Documents/SG_AssetPipeline/SG_ICWhiteBox_001/Content/Developers/Owner/Collections/' took 0.01s
+[2019.01.23-18.55.56:652][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Owner/Documents/SG_AssetPipeline/SG_ICWhiteBox_001/Content/Collections/' took 0.01s
+[2019.01.23-18.55.56:652][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2019.01.23-18.55.56:674][  0]LogContentBrowser: Native class hierarchy populated in 0.0210 seconds. Added 2572 classes and 603 folders.
+[2019.01.23-18.55.56:691][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2019.01.23-18.55.56:839][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2019.01.23-18.55.56:856][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0008 seconds. Added 1 classes and 2 folders.
+[2019.01.23-18.55.56:904][  0]LogSlate: Took 0.001454 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.01.23-18.55.56:914][  0]LogSlate: Took 0.001416 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.01.23-18.55.56:933][  0]LogSlate: Took 0.001364 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.01.23-18.55.57:189][  0]LogRenderer: Reallocating scene render targets to support 964x436 Format 10 NumSamples 1 (Frame:1).
+[2019.01.23-18.55.57:590][  0]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.23-18.55.57:660][  0]LogSlate: Window 'Tutorials' being destroyed
+[2019.01.23-18.55.57:727][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0008 seconds. Added 0 classes and 0 folders.
+[2019.01.23-18.55.57:727][  0]LogLoad: (Engine Initialization) Total time: 25.72 seconds
+[2019.01.23-18.55.57:727][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.01.23-18.55.57:755][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.01.23-18.55.57:794][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.01.23-18.55.57:904][  2]LogAssetRegistry: Asset discovery search completed in 13.8915 seconds
+[2019.01.23-18.55.57:909][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2019.01.23-18.55.57:909][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000172 seconds (updated 0 objects)
+[2019.01.23-18.56.01:864][121]LogSlate: Took 0.001219 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.01.23-18.56.31:132][994]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.23-18.56.31:333][996]LogSlate: Took 0.000500 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.01.23-18.56.32:338][996]LogAIModule: Creating AISystem for world SG_ICWBox_002
+[2019.01.23-18.56.32:452][996]LogAssetEditorManager: Opening Asset editor for World /Game/SG_ICWBox_002.SG_ICWBox_002
+[2019.01.23-18.56.32:528][996]Cmd: MAP LOAD FILE="../../../../../../Users/Owner/Documents/SG_AssetPipeline/SG_ICWhiteBox_001/Content/SG_ICWBox_002.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.01.23-18.56.32:528][996]LightingResults: New page: Lighting Build
+[2019.01.23-18.56.32:529][996]LoadErrors: New page: Loading map: SG_ICWBox_002.umap
+[2019.01.23-18.56.32:530][996]MapCheck: New page: Map Check
+[2019.01.23-18.56.32:530][996]LightingResults: New page: Lighting Build
+[2019.01.23-18.56.32:631][996]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.01.23-18.56.32:776][996]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.01.23-18.56.33:190][996]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 413.786ms to complete.
+[2019.01.23-18.56.33:192][996]LogFileHelpers: Loading map 'SG_ICWBox_002' took 0.667
+[2019.01.23-18.56.49:132][465]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (mann)
+[2019.01.23-18.56.56:364][680]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.01.23-18.57.04:207][882]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.23-18.57.13:865][117]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2019.01.23-18.57.16:318][175]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.23-18.58.52:882][621]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SG_ICWBox_002" FILE="../../../../../../Users/Owner/Documents/SG_AssetPipeline/SG_ICWhiteBox_001/Content/SG_ICWBox_002.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.01.23-18.58.55:577][621]LogSavePackage: Moving '../../../../../../Users/Owner/Documents/SG_AssetPipeline/SG_ICWhiteBox_001/Saved/SG_ICWBox_0029E6E00CE4466033275C24A8886C7A4DB.tmp' to '../../../../../../Users/Owner/Documents/SG_AssetPipeline/SG_ICWhiteBox_001/Content/SG_ICWBox_002.umap'
+[2019.01.23-18.58.55:638][621]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SG_ICWBox_002_BuiltData" FILE="../../../../../../Users/Owner/Documents/SG_AssetPipeline/SG_ICWhiteBox_001/Content/SG_ICWBox_002_BuiltData.uasset" SILENT=true
+[2019.01.23-18.58.55:690][621]LogSavePackage: Moving '../../../../../../Users/Owner/Documents/SG_AssetPipeline/SG_ICWhiteBox_001/Saved/SG_ICWBox_002_BuiltData88D7D3ED49D9535DDC4571BC27EC83CB.tmp' to '../../../../../../Users/Owner/Documents/SG_AssetPipeline/SG_ICWhiteBox_001/Content/SG_ICWBox_002_BuiltData.uasset'
+[2019.01.23-18.59.16:910][185]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.23-19.01.33:267][206]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.23-19.01.33:349][206]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SG_ICWBox_002" FILE="../../../../../../Users/Owner/Documents/SG_AssetPipeline/SG_ICWhiteBox_001/Content/SG_ICWBox_002.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.01.23-19.01.36:055][206]LogSavePackage: Moving '../../../../../../Users/Owner/Documents/SG_AssetPipeline/SG_ICWhiteBox_001/Saved/SG_ICWBox_0027E6371AD4816C05B173242839C1B677B.tmp' to '../../../../../../Users/Owner/Documents/SG_AssetPipeline/SG_ICWhiteBox_001/Content/SG_ICWBox_002.umap'
+[2019.01.23-19.01.36:130][206]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SG_ICWBox_002_BuiltData" FILE="../../../../../../Users/Owner/Documents/SG_AssetPipeline/SG_ICWhiteBox_001/Content/SG_ICWBox_002_BuiltData.uasset" SILENT=true
+[2019.01.23-19.01.36:187][206]LogSavePackage: Moving '../../../../../../Users/Owner/Documents/SG_AssetPipeline/SG_ICWhiteBox_001/Saved/SG_ICWBox_002_BuiltData08B3139645F35CED7107CCB2F2F04035.tmp' to '../../../../../../Users/Owner/Documents/SG_AssetPipeline/SG_ICWhiteBox_001/Content/SG_ICWBox_002_BuiltData.uasset'
+[2019.01.23-19.01.44:261][425]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.23-19.01.53:744][666]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.23-19.02.18:137][317]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.23-19.02.18:220][317]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SG_ICWBox_002" FILE="../../../../../../Users/Owner/Documents/SG_AssetPipeline/SG_ICWhiteBox_001/Content/SG_ICWBox_002.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.01.23-19.02.20:866][317]LogSavePackage: Moving '../../../../../../Users/Owner/Documents/SG_AssetPipeline/SG_ICWhiteBox_001/Saved/SG_ICWBox_0029C4C842B49331B8A027FE9B8A70D41F0.tmp' to '../../../../../../Users/Owner/Documents/SG_AssetPipeline/SG_ICWhiteBox_001/Content/SG_ICWBox_002.umap'
+[2019.01.23-19.02.20:934][317]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SG_ICWBox_002_BuiltData" FILE="../../../../../../Users/Owner/Documents/SG_AssetPipeline/SG_ICWhiteBox_001/Content/SG_ICWBox_002_BuiltData.uasset" SILENT=true
+[2019.01.23-19.02.20:976][317]LogSavePackage: Moving '../../../../../../Users/Owner/Documents/SG_AssetPipeline/SG_ICWhiteBox_001/Saved/SG_ICWBox_002_BuiltData5CA794764688EF0144AA2DAF958B4D96.tmp' to '../../../../../../Users/Owner/Documents/SG_AssetPipeline/SG_ICWhiteBox_001/Content/SG_ICWBox_002_BuiltData.uasset'
+[2019.01.23-19.02.38:059][780]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.23-19.03.01:682][335]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.23-19.03.27:624][977]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.23-19.03.40:501][159]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SG_ICWBox_002" FILE="../../../../../../Users/Owner/Documents/SG_AssetPipeline/SG_ICWhiteBox_001/Content/SG_ICWBox_002.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.01.23-19.03.43:294][159]LogSavePackage: Moving '../../../../../../Users/Owner/Documents/SG_AssetPipeline/SG_ICWhiteBox_001/Saved/SG_ICWBox_0026A9309DF408076C117139689E94D48A3.tmp' to '../../../../../../Users/Owner/Documents/SG_AssetPipeline/SG_ICWhiteBox_001/Content/SG_ICWBox_002.umap'
+[2019.01.23-19.03.43:405][159]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SG_ICWBox_002_BuiltData" FILE="../../../../../../Users/Owner/Documents/SG_AssetPipeline/SG_ICWhiteBox_001/Content/SG_ICWBox_002_BuiltData.uasset" SILENT=true
+[2019.01.23-19.03.43:472][159]LogSavePackage: Moving '../../../../../../Users/Owner/Documents/SG_AssetPipeline/SG_ICWhiteBox_001/Saved/SG_ICWBox_002_BuiltDataA3410E0C435110A136630BA4FE05E5C7.tmp' to '../../../../../../Users/Owner/Documents/SG_AssetPipeline/SG_ICWhiteBox_001/Content/SG_ICWBox_002_BuiltData.uasset'
+[2019.01.23-19.04.05:668][791]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere2)
+[2019.01.23-19.04.18:626][119]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.23-19.04.37:675][561]Cmd: DELETE
+[2019.01.23-19.04.37:675][561]Cmd: ACTOR DELETE
+[2019.01.23-19.04.37:769][561]LogEditorActor: Deleted Actor: Brush
+[2019.01.23-19.04.38:559][561]LogEditorActor: Deleted 1 Actors (0.883 secs)
+[2019.01.23-19.04.42:274][660]Cmd: TRANSACTION UNDO
+[2019.01.23-19.04.42:274][660]LogEditorTransaction: Undo Delete Actors
+[2019.01.23-19.04.42:982][660]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Street_106.BrushComponent0) Component already registered.
+[2019.01.23-19.04.42:985][660]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Street_83.BrushComponent0) Component already registered.
+[2019.01.23-19.04.42:997][660]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Sidewalk_53.BrushComponent0) Component already registered.
+[2019.01.23-19.04.42:999][660]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush43.BrushComponent0) Component already registered.
+[2019.01.23-19.04.43:001][660]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush61.BrushComponent0) Component already registered.
+[2019.01.23-19.04.43:002][660]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Street_108.BrushComponent0) Component already registered.
+[2019.01.23-19.04.43:004][660]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Sidewalk_16.BrushComponent0) Component already registered.
+[2019.01.23-19.04.43:055][660]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Street_13.BrushComponent0) Component already registered.
+[2019.01.23-19.04.43:067][660]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush192.BrushComponent0) Component already registered.
+[2019.01.23-19.04.43:069][660]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush210.BrushComponent0) Component already registered.
+[2019.01.23-19.04.43:070][660]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Street_167.BrushComponent0) Component already registered.
+[2019.01.23-19.04.43:072][660]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Street_158.BrushComponent0) Component already registered.
+[2019.01.23-19.04.43:078][660]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.SphereBrush2.BrushComponent0) Component already registered.
+[2019.01.23-19.04.43:094][660]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Street_137.BrushComponent0) Component already registered.
+[2019.01.23-19.04.43:095][660]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush94.BrushComponent0) Component already registered.
+[2019.01.23-19.04.43:104][660]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush163.BrushComponent0) Component already registered.
+[2019.01.23-19.04.43:107][660]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Street_141.BrushComponent0) Component already registered.
+[2019.01.23-19.04.43:109][660]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush145.BrushComponent0) Component already registered.
+[2019.01.23-19.04.43:110][660]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Sidewalk_62.BrushComponent0) Component already registered.
+[2019.01.23-19.04.43:286][660]Cmd: TRANSACTION UNDO
+[2019.01.23-19.04.43:287][660]LogEditorTransaction: Undo Move Actors
+[2019.01.23-19.04.43:972][660]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush25.BrushComponent0) Component already registered.
+[2019.01.23-19.04.43:973][660]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Street_102.BrushComponent0) Component already registered.
+[2019.01.23-19.04.43:975][660]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush30.BrushComponent0) Component already registered.
+[2019.01.23-19.04.43:976][660]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Street_81.BrushComponent0) Component already registered.
+[2019.01.23-19.04.43:981][660]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush71.BrushComponent0) Component already registered.
+[2019.01.23-19.04.43:992][660]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush53.BrushComponent0) Component already registered.
+[2019.01.23-19.04.44:001][660]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Street_38.BrushComponent0) Component already registered.
+[2019.01.23-19.04.44:003][660]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Street_9.BrushComponent0) Component already registered.
+[2019.01.23-19.04.44:066][660]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush13.BrushComponent0) Component already registered.
+[2019.01.23-19.04.44:085][660]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Street_171.BrushComponent0) Component already registered.
+[2019.01.23-19.04.44:090][660]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush173.BrushComponent0) Component already registered.
+[2019.01.23-19.04.44:092][660]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Sidewalk_71.BrushComponent0) Component already registered.
+[2019.01.23-19.04.44:095][660]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush179.BrushComponent0) Component already registered.
+[2019.01.23-19.04.44:109][660]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Box_TableTop_3.BrushComponent0) Component already registered.
+[2019.01.23-19.04.44:133][660]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush155.BrushComponent0) Component already registered.
+[2019.01.23-19.04.44:143][660]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Street_144.BrushComponent0) Component already registered.
+[2019.01.23-19.04.48:954][761]Cmd: DELETE
+[2019.01.23-19.04.48:954][761]Cmd: ACTOR DELETE
+[2019.01.23-19.04.49:045][761]LogEditorActor: Deleted Actor: Brush
+[2019.01.23-19.04.49:780][761]LogEditorActor: Deleted 1 Actors (0.826 secs)
+[2019.01.23-19.04.52:003][818]Cmd: TRANSACTION UNDO
+[2019.01.23-19.04.52:003][818]LogEditorTransaction: Undo Delete Actors
+[2019.01.23-19.04.52:822][818]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Street_106.BrushComponent0) Component already registered.
+[2019.01.23-19.04.52:825][818]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Street_83.BrushComponent0) Component already registered.
+[2019.01.23-19.04.52:837][818]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Sidewalk_53.BrushComponent0) Component already registered.
+[2019.01.23-19.04.52:840][818]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush43.BrushComponent0) Component already registered.
+[2019.01.23-19.04.52:842][818]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush61.BrushComponent0) Component already registered.
+[2019.01.23-19.04.52:844][818]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Street_108.BrushComponent0) Component already registered.
+[2019.01.23-19.04.52:847][818]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Sidewalk_16.BrushComponent0) Component already registered.
+[2019.01.23-19.04.52:905][818]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Street_13.BrushComponent0) Component already registered.
+[2019.01.23-19.04.52:918][818]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush192.BrushComponent0) Component already registered.
+[2019.01.23-19.04.52:919][818]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush210.BrushComponent0) Component already registered.
+[2019.01.23-19.04.52:920][818]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Street_167.BrushComponent0) Component already registered.
+[2019.01.23-19.04.52:922][818]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Street_158.BrushComponent0) Component already registered.
+[2019.01.23-19.04.52:928][818]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.SphereBrush2.BrushComponent0) Component already registered.
+[2019.01.23-19.04.52:942][818]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Street_137.BrushComponent0) Component already registered.
+[2019.01.23-19.04.52:943][818]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush94.BrushComponent0) Component already registered.
+[2019.01.23-19.04.52:951][818]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush163.BrushComponent0) Component already registered.
+[2019.01.23-19.04.52:953][818]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Street_141.BrushComponent0) Component already registered.
+[2019.01.23-19.04.52:955][818]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush145.BrushComponent0) Component already registered.
+[2019.01.23-19.04.52:956][818]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Sidewalk_62.BrushComponent0) Component already registered.
+[2019.01.23-19.04.54:613][837]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.23-19.05.04:383][ 42]Cmd: TRANSACTION UNDO
+[2019.01.23-19.05.04:383][ 42]LogEditorTransaction: Undo Set Rotation
+[2019.01.23-19.05.05:100][ 42]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush25.BrushComponent0) Component already registered.
+[2019.01.23-19.05.05:101][ 42]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Street_102.BrushComponent0) Component already registered.
+[2019.01.23-19.05.05:103][ 42]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush30.BrushComponent0) Component already registered.
+[2019.01.23-19.05.05:105][ 42]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Street_81.BrushComponent0) Component already registered.
+[2019.01.23-19.05.05:111][ 42]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush71.BrushComponent0) Component already registered.
+[2019.01.23-19.05.05:120][ 42]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush53.BrushComponent0) Component already registered.
+[2019.01.23-19.05.05:125][ 42]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Street_38.BrushComponent0) Component already registered.
+[2019.01.23-19.05.05:127][ 42]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Street_9.BrushComponent0) Component already registered.
+[2019.01.23-19.05.05:178][ 42]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush13.BrushComponent0) Component already registered.
+[2019.01.23-19.05.05:190][ 42]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Street_171.BrushComponent0) Component already registered.
+[2019.01.23-19.05.05:193][ 42]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush173.BrushComponent0) Component already registered.
+[2019.01.23-19.05.05:194][ 42]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Sidewalk_71.BrushComponent0) Component already registered.
+[2019.01.23-19.05.05:195][ 42]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush179.BrushComponent0) Component already registered.
+[2019.01.23-19.05.05:203][ 42]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Box_TableTop_3.BrushComponent0) Component already registered.
+[2019.01.23-19.05.05:217][ 42]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush155.BrushComponent0) Component already registered.
+[2019.01.23-19.05.05:230][ 42]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Street_144.BrushComponent0) Component already registered.
+[2019.01.23-19.05.16:790][271]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.23-19.05.46:077][689]Cmd: TRANSACTION UNDO
+[2019.01.23-19.05.46:077][689]LogEditorTransaction: Undo Set Location
+[2019.01.23-19.05.46:819][689]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush25.BrushComponent0) Component already registered.
+[2019.01.23-19.05.46:821][689]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Street_102.BrushComponent0) Component already registered.
+[2019.01.23-19.05.46:824][689]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush30.BrushComponent0) Component already registered.
+[2019.01.23-19.05.46:826][689]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Street_81.BrushComponent0) Component already registered.
+[2019.01.23-19.05.46:834][689]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush71.BrushComponent0) Component already registered.
+[2019.01.23-19.05.46:848][689]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush53.BrushComponent0) Component already registered.
+[2019.01.23-19.05.46:854][689]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Street_38.BrushComponent0) Component already registered.
+[2019.01.23-19.05.46:856][689]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Street_9.BrushComponent0) Component already registered.
+[2019.01.23-19.05.46:909][689]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush13.BrushComponent0) Component already registered.
+[2019.01.23-19.05.46:926][689]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Street_171.BrushComponent0) Component already registered.
+[2019.01.23-19.05.46:931][689]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush173.BrushComponent0) Component already registered.
+[2019.01.23-19.05.46:932][689]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Sidewalk_71.BrushComponent0) Component already registered.
+[2019.01.23-19.05.46:934][689]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush179.BrushComponent0) Component already registered.
+[2019.01.23-19.05.46:944][689]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Box_TableTop_3.BrushComponent0) Component already registered.
+[2019.01.23-19.05.46:967][689]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush155.BrushComponent0) Component already registered.
+[2019.01.23-19.05.46:976][689]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Street_144.BrushComponent0) Component already registered.
+[2019.01.23-19.05.52:844][816]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.23-19.06.04:448][  1]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere2)
+[2019.01.23-19.06.04:783][ 10]Cmd: TRANSACTION UNDO
+[2019.01.23-19.06.04:783][ 10]LogEditorTransaction: Undo Clicking on Actors
+[2019.01.23-19.06.05:388][ 21]Cmd: TRANSACTION UNDO
+[2019.01.23-19.06.05:388][ 21]LogEditorTransaction: Undo Set Location
+[2019.01.23-19.06.06:151][ 21]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush25.BrushComponent0) Component already registered.
+[2019.01.23-19.06.06:153][ 21]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Street_102.BrushComponent0) Component already registered.
+[2019.01.23-19.06.06:155][ 21]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush30.BrushComponent0) Component already registered.
+[2019.01.23-19.06.06:157][ 21]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Street_81.BrushComponent0) Component already registered.
+[2019.01.23-19.06.06:165][ 21]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush71.BrushComponent0) Component already registered.
+[2019.01.23-19.06.06:175][ 21]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush53.BrushComponent0) Component already registered.
+[2019.01.23-19.06.06:182][ 21]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Street_38.BrushComponent0) Component already registered.
+[2019.01.23-19.06.06:183][ 21]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Street_9.BrushComponent0) Component already registered.
+[2019.01.23-19.06.06:250][ 21]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush13.BrushComponent0) Component already registered.
+[2019.01.23-19.06.06:266][ 21]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Street_171.BrushComponent0) Component already registered.
+[2019.01.23-19.06.06:269][ 21]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush173.BrushComponent0) Component already registered.
+[2019.01.23-19.06.06:270][ 21]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Sidewalk_71.BrushComponent0) Component already registered.
+[2019.01.23-19.06.06:271][ 21]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush179.BrushComponent0) Component already registered.
+[2019.01.23-19.06.06:279][ 21]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Box_TableTop_3.BrushComponent0) Component already registered.
+[2019.01.23-19.06.06:294][ 21]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush155.BrushComponent0) Component already registered.
+[2019.01.23-19.06.06:302][ 21]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Street_144.BrushComponent0) Component already registered.
+[2019.01.23-19.06.06:484][ 21]Cmd: TRANSACTION UNDO
+[2019.01.23-19.06.06:484][ 21]LogEditorTransaction: Undo Select Brush Surface
+[2019.01.23-19.06.20:620][385]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.23-19.06.47:258][900]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.23-19.06.51:724][995]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SG_ICWBox_002" FILE="../../../../../../Users/Owner/Documents/SG_AssetPipeline/SG_ICWhiteBox_001/Content/SG_ICWBox_002.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.01.23-19.06.54:531][995]LogSavePackage: Moving '../../../../../../Users/Owner/Documents/SG_AssetPipeline/SG_ICWhiteBox_001/Saved/SG_ICWBox_0024413F9DD478DF3B5A2CE36987DC66242.tmp' to '../../../../../../Users/Owner/Documents/SG_AssetPipeline/SG_ICWhiteBox_001/Content/SG_ICWBox_002.umap'
+[2019.01.23-19.06.54:634][995]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SG_ICWBox_002_BuiltData" FILE="../../../../../../Users/Owner/Documents/SG_AssetPipeline/SG_ICWhiteBox_001/Content/SG_ICWBox_002_BuiltData.uasset" SILENT=true
+[2019.01.23-19.06.54:719][995]LogSavePackage: Moving '../../../../../../Users/Owner/Documents/SG_AssetPipeline/SG_ICWhiteBox_001/Saved/SG_ICWBox_002_BuiltDataA8B50C5742635E9FBB4C5EAE3EDAEB6B.tmp' to '../../../../../../Users/Owner/Documents/SG_AssetPipeline/SG_ICWhiteBox_001/Content/SG_ICWBox_002_BuiltData.uasset'
+[2019.01.23-19.07.19:375][620]Cmd: TRANSACTION UNDO
+[2019.01.23-19.07.19:375][620]LogEditorTransaction: Undo Move Actors
+[2019.01.23-19.07.20:172][620]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush61.BrushComponent0) Component already registered.
+[2019.01.23-19.07.20:172][620]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush80.BrushComponent0) Component already registered.
+[2019.01.23-19.07.20:176][620]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Sidewalk_47.BrushComponent0) Component already registered.
+[2019.01.23-19.07.20:184][620]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Street_139.BrushComponent0) Component already registered.
+[2019.01.23-19.07.20:188][620]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush131.BrushComponent0) Component already registered.
+[2019.01.23-19.07.20:190][620]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush96.BrushComponent0) Component already registered.
+[2019.01.23-19.07.20:198][620]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Sidewalk_16.BrushComponent0) Component already registered.
+[2019.01.23-19.07.20:199][620]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Street_46.BrushComponent0) Component already registered.
+[2019.01.23-19.07.20:252][620]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Street_21.BrushComponent0) Component already registered.
+[2019.01.23-19.07.20:256][620]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Sidewalk_37.BrushComponent0) Component already registered.
+[2019.01.23-19.07.20:258][620]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Street_96.BrushComponent0) Component already registered.
+[2019.01.23-19.07.20:262][620]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Street_59.BrushComponent0) Component already registered.
+[2019.01.23-19.07.20:271][620]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush177.BrushComponent0) Component already registered.
+[2019.01.23-19.07.20:272][620]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush196.BrushComponent0) Component already registered.
+[2019.01.23-19.07.20:276][620]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Street_149.BrushComponent0) Component already registered.
+[2019.01.23-19.07.20:285][620]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Box_BenchSide_11.BrushComponent0) Component already registered.
+[2019.01.23-19.07.20:289][620]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.SphereBrush6.BrushComponent0) Component already registered.
+[2019.01.23-19.07.20:291][620]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush212.BrushComponent0) Component already registered.
+[2019.01.23-19.07.25:837][746]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.23-19.07.51:536][427]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.23-19.07.59:749][565]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.23-19.08.19:080][978]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.23-19.08.20:399][ 19]Cmd: TRANSACTION UNDO
+[2019.01.23-19.08.20:399][ 19]LogEditorTransaction: Undo Move Actors
+[2019.01.23-19.08.21:164][ 19]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush34.BrushComponent0) Component already registered.
+[2019.01.23-19.08.21:166][ 19]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Sidewalk_36.BrushComponent0) Component already registered.
+[2019.01.23-19.08.21:168][ 19]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush24.BrushComponent0) Component already registered.
+[2019.01.23-19.08.21:173][ 19]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Street_114.BrushComponent0) Component already registered.
+[2019.01.23-19.08.21:175][ 19]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush81.BrushComponent0) Component already registered.
+[2019.01.23-19.08.21:179][ 19]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush52.BrushComponent0) Component already registered.
+[2019.01.23-19.08.21:188][ 19]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Sidewalk_9.BrushComponent0) Component already registered.
+[2019.01.23-19.08.21:190][ 19]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Street_36.BrushComponent0) Component already registered.
+[2019.01.23-19.08.21:194][ 19]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Street_5.BrushComponent0) Component already registered.
+[2019.01.23-19.08.21:245][ 19]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Street_62.BrushComponent0) Component already registered.
+[2019.01.23-19.08.21:254][ 19]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Street_49.BrushComponent0) Component already registered.
+[2019.01.23-19.08.21:274][ 19]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Box_TableTop_4.BrushComponent0) Component already registered.
+[2019.01.23-19.08.21:284][ 19]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush95.BrushComponent0) Component already registered.
+[2019.01.23-19.08.21:286][ 19]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Street_138.BrushComponent0) Component already registered.
+[2019.01.23-19.08.21:289][ 19]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush160.BrushComponent0) Component already registered.
+[2019.01.23-19.08.21:456][ 19]Cmd: TRANSACTION UNDO
+[2019.01.23-19.08.21:456][ 19]LogEditorTransaction: Undo Set Rotation
+[2019.01.23-19.08.22:278][ 19]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush34.BrushComponent0) Component already registered.
+[2019.01.23-19.08.22:281][ 19]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Sidewalk_36.BrushComponent0) Component already registered.
+[2019.01.23-19.08.22:282][ 19]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush24.BrushComponent0) Component already registered.
+[2019.01.23-19.08.22:287][ 19]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Street_114.BrushComponent0) Component already registered.
+[2019.01.23-19.08.22:288][ 19]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush81.BrushComponent0) Component already registered.
+[2019.01.23-19.08.22:291][ 19]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush52.BrushComponent0) Component already registered.
+[2019.01.23-19.08.22:297][ 19]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Sidewalk_9.BrushComponent0) Component already registered.
+[2019.01.23-19.08.22:299][ 19]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Street_36.BrushComponent0) Component already registered.
+[2019.01.23-19.08.22:303][ 19]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Street_5.BrushComponent0) Component already registered.
+[2019.01.23-19.08.22:360][ 19]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Street_62.BrushComponent0) Component already registered.
+[2019.01.23-19.08.22:371][ 19]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Street_49.BrushComponent0) Component already registered.
+[2019.01.23-19.08.22:392][ 19]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Box_TableTop_4.BrushComponent0) Component already registered.
+[2019.01.23-19.08.22:403][ 19]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush95.BrushComponent0) Component already registered.
+[2019.01.23-19.08.22:406][ 19]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Street_138.BrushComponent0) Component already registered.
+[2019.01.23-19.08.22:408][ 19]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush160.BrushComponent0) Component already registered.
+[2019.01.23-19.08.24:115][ 35]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.01.23-19.08.24:617][ 36]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.01.23-19.08.25:116][ 36]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.01.23-19.08.25:617][ 36]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.01.23-19.08.26:117][ 36]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.01.23-19.08.26:617][ 36]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.01.23-19.08.27:117][ 36]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.01.23-19.08.27:616][ 36]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.01.23-19.08.28:118][ 36]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.01.23-19.08.28:617][ 36]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.01.23-19.08.29:117][ 36]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.01.23-19.08.29:616][ 36]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.01.23-19.08.30:118][ 36]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.01.23-19.08.30:617][ 36]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.01.23-19.08.31:117][ 36]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.01.23-19.08.31:617][ 36]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.01.23-19.08.32:117][ 36]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.01.23-19.08.32:617][ 36]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.01.23-19.08.33:117][ 36]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.01.23-19.08.33:618][ 36]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.01.23-19.08.34:117][ 36]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.01.23-19.08.34:617][ 36]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.01.23-19.08.35:117][ 36]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.01.23-19.08.35:618][ 36]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.01.23-19.08.36:119][ 36]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.01.23-19.08.36:618][ 36]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.01.23-19.08.37:118][ 36]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.01.23-19.08.37:618][ 36]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.01.23-19.08.38:118][ 36]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.01.23-19.08.38:618][ 36]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.01.23-19.08.39:119][ 36]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.01.23-19.08.39:618][ 36]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.01.23-19.08.40:119][ 36]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.01.23-19.08.40:619][ 36]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.01.23-19.08.41:119][ 36]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.01.23-19.08.41:618][ 36]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.01.23-19.08.42:119][ 36]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.01.23-19.08.42:618][ 36]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.01.23-19.08.43:119][ 36]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.01.23-19.08.43:619][ 36]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.01.23-19.08.44:119][ 36]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.01.23-19.08.44:618][ 36]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.01.23-19.08.45:118][ 36]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.01.23-19.08.45:619][ 36]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.01.23-19.08.46:119][ 36]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.01.23-19.08.46:618][ 36]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.01.23-19.08.47:119][ 36]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.01.23-19.08.47:619][ 36]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.01.23-19.08.48:119][ 36]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.01.23-19.08.48:619][ 36]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.01.23-19.08.49:120][ 36]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.01.23-19.08.49:619][ 36]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.01.23-19.08.49:633][ 36]LogD3D11RHI: Error: Result failed 
  at D:\Build\++UE4\Sync\Engine\Source\Runtime\Windows\D3D11RHI\Private\D3D11Viewport.cpp:304 
  with error DXGI_ERROR_DEVICE_REMOVED DXGI_ERROR_DEVICE_HUNG
-[2019.01.23-18.53.55:461][340]LogD3D11RHI: [Aftermath] GDynamicRHI=000002048CBBC100, GDX11NVAfterMathEnabled=0, Result=0xFFFFFFFF, bDeviceActive=0
-[2019.01.23-18.53.55:461][340]LogWindows: Windows GetLastError: The operation completed successfully. (0)
-[2019.01.23-18.54.00:042][340]LogWindows: Windows GetLastError: The operation completed successfully. (0)
-[2019.01.23-18.54.00:042][340]LogWindows: Error: === Critical error: ===
-[2019.01.23-18.54.00:042][340]LogWindows: Error: 
-[2019.01.23-18.54.00:042][340]LogWindows: Error: Fatal error: [File:D:\Build\++UE4\Sync\Engine\Source\Runtime\RenderCore\Private\RenderingThread.cpp] [Line: 826] 
-[2019.01.23-18.54.00:042][340]LogWindows: Error: Rendering thread exception:
-[2019.01.23-18.54.00:042][340]LogWindows: Error: Fatal error: [File:D:\Build\++UE4\Sync\Engine\Source\Runtime\Windows\D3D11RHI\Private\D3D11Util.cpp] [Line: 200] 
-[2019.01.23-18.54.00:042][340]LogWindows: Error: Unreal Engine is exiting due to D3D device being lost. (Error: 0x887A0006 - 'HUNG')
-[2019.01.23-18.54.00:042][340]LogWindows: Error: 
-[2019.01.23-18.54.00:042][340]LogWindows: Error: 
-[2019.01.23-18.54.00:043][340]LogWindows: Error: [Callstack] 0x00007ff85229a388 KERNELBASE.dll!UnknownFunction []
-[2019.01.23-18.54.00:043][340]LogWindows: Error: [Callstack] 0x00007ff830a66850 UE4Editor-ApplicationCore.dll!UnknownFunction []
-[2019.01.23-18.54.00:043][340]LogWindows: Error: [Callstack] 0x00007ffffdb962fc UE4Editor-Core.dll!UnknownFunction []
-[2019.01.23-18.54.00:043][340]LogWindows: Error: [Callstack] 0x00007ffffdb251db UE4Editor-Core.dll!UnknownFunction []
-[2019.01.23-18.54.00:043][340]LogWindows: Error: [Callstack] 0x00007fffd204adea UE4Editor-D3D11RHI.dll!UnknownFunction []
-[2019.01.23-18.54.00:043][340]LogWindows: Error: [Callstack] 0x00007fffd204e6e4 UE4Editor-D3D11RHI.dll!UnknownFunction []
-[2019.01.23-18.54.00:043][340]LogWindows: Error: [Callstack] 0x00007fffd202d0aa UE4Editor-D3D11RHI.dll!UnknownFunction []
-[2019.01.23-18.54.00:043][340]LogWindows: Error: [Callstack] 0x00007fffd203ab70 UE4Editor-D3D11RHI.dll!UnknownFunction []
-[2019.01.23-18.54.00:043][340]LogWindows: Error: [Callstack] 0x00007ff830f0b106 UE4Editor-RHI.dll!UnknownFunction []
-[2019.01.23-18.54.00:043][340]LogWindows: Error: [Callstack] 0x00007fffd1f41b42 UE4Editor-SlateRHIRenderer.dll!UnknownFunction []
-[2019.01.23-18.54.00:043][340]LogWindows: Error: [Callstack] 0x00007fffd1f47d0a UE4Editor-SlateRHIRenderer.dll!UnknownFunction []
-[2019.01.23-18.54.00:043][340]LogWindows: Error: [Callstack] 0x00007ffffd9b1f92 UE4Editor-Core.dll!UnknownFunction []
-[2019.01.23-18.54.00:043][340]LogWindows: Error: [Callstack] 0x00007ffffd9b2456 UE4Editor-Core.dll!UnknownFunction []
-[2019.01.23-18.54.00:043][340]LogWindows: Error: [Callstack] 0x00007ff83f4c75f9 UE4Editor-RenderCore.dll!UnknownFunction []
-[2019.01.23-18.54.00:043][340]LogWindows: Error: [Callstack] 0x00007ff83f4c8574 UE4Editor-RenderCore.dll!UnknownFunction []
-[2019.01.23-18.54.00:044][340]LogWindows: Error: [Callstack] 0x00007ffffddf6b7c UE4Editor-Core.dll!UnknownFunction []
-[2019.01.23-18.54.00:044][340]LogWindows: Error: [Callstack] 0x00007ffffddf17c7 UE4Editor-Core.dll!UnknownFunction []
-[2019.01.23-18.54.00:044][340]LogWindows: Error: [Callstack] 0x00007ff8532a3034 KERNEL32.DLL!UnknownFunction []
-[2019.01.23-18.54.00:044][340]LogWindows: Error: [Callstack] 0x00007ff855d63691 ntdll.dll!UnknownFunction []
-[2019.01.23-18.54.00:044][340]LogWindows: Error: 
-[2019.01.23-18.54.00:044][340]LogWindows: Error: 
-[2019.01.23-18.54.00:044][340]LogWindows: Error: 
-[2019.01.23-18.54.00:044][340]LogWindows: Error: 
-[2019.01.23-18.54.00:070][340]LogExit: Executing StaticShutdownAfterError
-[2019.01.23-18.54.00:079][340]LogWindows: FPlatformMisc::RequestExit(1)
-[2019.01.23-18.54.00:085][340]Log file closed, 01/23/19 11:54:00
+[2019.01.23-19.08.49:633][ 36]LogD3D11RHI: [Aftermath] GDynamicRHI=000002BC8FEC2100, GDX11NVAfterMathEnabled=0, Result=0xFFFFFFFF, bDeviceActive=0
+[2019.01.23-19.08.49:633][ 36]LogWindows: Windows GetLastError: The operation completed successfully. (0)
+[2019.01.23-19.08.55:092][ 36]LogWindows: Windows GetLastError: The operation completed successfully. (0)
+[2019.01.23-19.08.55:092][ 36]LogWindows: Error: === Critical error: ===
+[2019.01.23-19.08.55:092][ 36]LogWindows: Error: 
+[2019.01.23-19.08.55:092][ 36]LogWindows: Error: Fatal error: [File:D:\Build\++UE4\Sync\Engine\Source\Runtime\RenderCore\Private\RenderingThread.cpp] [Line: 826] 
+[2019.01.23-19.08.55:092][ 36]LogWindows: Error: Rendering thread exception:
+[2019.01.23-19.08.55:092][ 36]LogWindows: Error: Fatal error: [File:D:\Build\++UE4\Sync\Engine\Source\Runtime\Windows\D3D11RHI\Private\D3D11Util.cpp] [Line: 200] 
+[2019.01.23-19.08.55:092][ 36]LogWindows: Error: Unreal Engine is exiting due to D3D device being lost. (Error: 0x887A0006 - 'HUNG')
+[2019.01.23-19.08.55:092][ 36]LogWindows: Error: 
+[2019.01.23-19.08.55:092][ 36]LogWindows: Error: 
+[2019.01.23-19.08.55:093][ 36]LogWindows: Error: [Callstack] 0x00007ff85229a388 KERNELBASE.dll!UnknownFunction []
+[2019.01.23-19.08.55:093][ 36]LogWindows: Error: [Callstack] 0x00007ff830a66850 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2019.01.23-19.08.55:093][ 36]LogWindows: Error: [Callstack] 0x00007ffffdb962fc UE4Editor-Core.dll!UnknownFunction []
+[2019.01.23-19.08.55:093][ 36]LogWindows: Error: [Callstack] 0x00007ffffdb251db UE4Editor-Core.dll!UnknownFunction []
+[2019.01.23-19.08.55:093][ 36]LogWindows: Error: [Callstack] 0x00007fffc407adea UE4Editor-D3D11RHI.dll!UnknownFunction []
+[2019.01.23-19.08.55:093][ 36]LogWindows: Error: [Callstack] 0x00007fffc407e6e4 UE4Editor-D3D11RHI.dll!UnknownFunction []
+[2019.01.23-19.08.55:093][ 36]LogWindows: Error: [Callstack] 0x00007fffc405d0aa UE4Editor-D3D11RHI.dll!UnknownFunction []
+[2019.01.23-19.08.55:093][ 36]LogWindows: Error: [Callstack] 0x00007fffc406ab70 UE4Editor-D3D11RHI.dll!UnknownFunction []
+[2019.01.23-19.08.55:093][ 36]LogWindows: Error: [Callstack] 0x00007ff830f0b106 UE4Editor-RHI.dll!UnknownFunction []
+[2019.01.23-19.08.55:093][ 36]LogWindows: Error: [Callstack] 0x00007fffc3e11b42 UE4Editor-SlateRHIRenderer.dll!UnknownFunction []
+[2019.01.23-19.08.55:093][ 36]LogWindows: Error: [Callstack] 0x00007fffc3e17d0a UE4Editor-SlateRHIRenderer.dll!UnknownFunction []
+[2019.01.23-19.08.55:093][ 36]LogWindows: Error: [Callstack] 0x00007ffffd9b1f92 UE4Editor-Core.dll!UnknownFunction []
+[2019.01.23-19.08.55:094][ 36]LogWindows: Error: [Callstack] 0x00007ffffd9b2456 UE4Editor-Core.dll!UnknownFunction []
+[2019.01.23-19.08.55:094][ 36]LogWindows: Error: [Callstack] 0x00007ff83f4c75f9 UE4Editor-RenderCore.dll!UnknownFunction []
+[2019.01.23-19.08.55:094][ 36]LogWindows: Error: [Callstack] 0x00007ff83f4c8574 UE4Editor-RenderCore.dll!UnknownFunction []
+[2019.01.23-19.08.55:094][ 36]LogWindows: Error: [Callstack] 0x00007ffffddf6b7c UE4Editor-Core.dll!UnknownFunction []
+[2019.01.23-19.08.55:094][ 36]LogWindows: Error: [Callstack] 0x00007ffffddf17c7 UE4Editor-Core.dll!UnknownFunction []
+[2019.01.23-19.08.55:094][ 36]LogWindows: Error: [Callstack] 0x00007ff8532a3034 KERNEL32.DLL!UnknownFunction []
+[2019.01.23-19.08.55:094][ 36]LogWindows: Error: [Callstack] 0x00007ff855d63691 ntdll.dll!UnknownFunction []
+[2019.01.23-19.08.55:094][ 36]LogWindows: Error: 
+[2019.01.23-19.08.55:094][ 36]LogWindows: Error: 
+[2019.01.23-19.08.55:094][ 36]LogWindows: Error: 
+[2019.01.23-19.08.55:094][ 36]LogWindows: Error: 
+[2019.01.23-19.08.55:125][ 36]LogExit: Executing StaticShutdownAfterError
+[2019.01.23-19.08.55:133][ 36]LogWindows: FPlatformMisc::RequestExit(1)
+[2019.01.23-19.08.55:134][ 36]Log file closed, 01/23/19 12:08:55
