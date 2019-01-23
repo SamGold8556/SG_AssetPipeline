@@ -3101,3 +3101,27 @@ LogInit: Object subsystem initialized
 [2019.01.23-20.07.44:579][939]LogSavePackage: Moving '../../../../../../Users/Owner/Documents/SG_AssetPipeline/SG_ICWhiteBox_001/Saved/SG_ICWBox_002EF8715894261D24E75EC02B177206A64.tmp' to '../../../../../../Users/Owner/Documents/SG_AssetPipeline/SG_ICWhiteBox_001/Content/SG_ICWBox_002.umap'
 [2019.01.23-20.07.44:597][939]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SG_ICWBox_002_BuiltData" FILE="../../../../../../Users/Owner/Documents/SG_AssetPipeline/SG_ICWhiteBox_001/Content/SG_ICWBox_002_BuiltData.uasset" SILENT=true
 [2019.01.23-20.07.44:615][939]LogSavePackage: Moving '../../../../../../Users/Owner/Documents/SG_AssetPipeline/SG_ICWhiteBox_001/Saved/SG_ICWBox_002_BuiltData6D1159914475932EAF0A82AF298861B7.tmp' to '../../../../../../Users/Owner/Documents/SG_AssetPipeline/SG_ICWhiteBox_001/Content/SG_ICWBox_002_BuiltData.uasset'
+[2019.01.23-20.08.58:201][ 87]Cmd: TRANSACTION UNDO
+[2019.01.23-20.08.58:201][ 87]LogEditorTransaction: Undo Move Actors
+[2019.01.23-20.08.58:619][ 87]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush107.BrushComponent0) Component already registered.
+[2019.01.23-20.08.58:623][ 87]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Sidewalk_54.BrushComponent0) Component already registered.
+[2019.01.23-20.08.58:670][ 87]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Sidewalk_36.BrushComponent0) Component already registered.
+[2019.01.23-20.08.58:674][ 87]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Street_60.BrushComponent0) Component already registered.
+[2019.01.23-20.08.58:676][ 87]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush228.BrushComponent0) Component already registered.
+[2019.01.23-20.08.58:676][ 87]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Box_TableTop_10.BrushComponent0) Component already registered.
+[2019.01.23-20.08.58:677][ 87]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.CylinderBrush13.BrushComponent0) Component already registered.
+[2019.01.23-20.08.58:680][ 87]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush255.BrushComponent0) Component already registered.
+[2019.01.23-20.08.58:684][ 87]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.CylinderBrush19.BrushComponent0) Component already registered.
+[2019.01.23-20.08.58:687][ 87]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Street_150.BrushComponent0) Component already registered.
+[2019.01.23-20.08.58:688][ 87]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush175.BrushComponent0) Component already registered.
+[2019.01.23-20.08.58:689][ 87]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Sidewalk_67.BrushComponent0) Component already registered.
+[2019.01.23-20.08.58:694][ 87]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush221.BrushComponent0) Component already registered.
+[2019.01.23-20.08.58:698][ 87]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush192.BrushComponent0) Component already registered.
+[2019.01.23-20.09.45:198][  6]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere3)
+[2019.01.23-20.09.46:329][ 27]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere3)
+[2019.01.23-20.09.50:139][ 99]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.23-20.09.50:191][ 99]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SG_ICWBox_002" FILE="../../../../../../Users/Owner/Documents/SG_AssetPipeline/SG_ICWhiteBox_001/Content/SG_ICWBox_002.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.01.23-20.09.51:516][ 99]LogSavePackage: Moving '../../../../../../Users/Owner/Documents/SG_AssetPipeline/SG_ICWhiteBox_001/Saved/SG_ICWBox_0029A8B997A4A52D52363C2F1B5BBBA3CEB.tmp' to '../../../../../../Users/Owner/Documents/SG_AssetPipeline/SG_ICWhiteBox_001/Content/SG_ICWBox_002.umap'
+[2019.01.23-20.09.51:546][ 99]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SG_ICWBox_002_BuiltData" FILE="../../../../../../Users/Owner/Documents/SG_AssetPipeline/SG_ICWhiteBox_001/Content/SG_ICWBox_002_BuiltData.uasset" SILENT=true
+[2019.01.23-20.09.51:567][ 99]LogSavePackage: Moving '../../../../../../Users/Owner/Documents/SG_AssetPipeline/SG_ICWhiteBox_001/Saved/SG_ICWBox_002_BuiltDataCE26B7444FFB51AB6AAEF685AA0512DE.tmp' to '../../../../../../Users/Owner/Documents/SG_AssetPipeline/SG_ICWhiteBox_001/Content/SG_ICWBox_002_BuiltData.uasset'
+[2019.01.23-20.10.31:253][889]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere2)
