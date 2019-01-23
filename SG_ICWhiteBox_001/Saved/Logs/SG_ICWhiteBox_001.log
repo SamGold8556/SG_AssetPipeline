@@ -3125,3 +3125,584 @@ LogInit: Object subsystem initialized
 [2019.01.23-20.09.51:546][ 99]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SG_ICWBox_002_BuiltData" FILE="../../../../../../Users/Owner/Documents/SG_AssetPipeline/SG_ICWhiteBox_001/Content/SG_ICWBox_002_BuiltData.uasset" SILENT=true
 [2019.01.23-20.09.51:567][ 99]LogSavePackage: Moving '../../../../../../Users/Owner/Documents/SG_AssetPipeline/SG_ICWhiteBox_001/Saved/SG_ICWBox_002_BuiltDataCE26B7444FFB51AB6AAEF685AA0512DE.tmp' to '../../../../../../Users/Owner/Documents/SG_AssetPipeline/SG_ICWhiteBox_001/Content/SG_ICWBox_002_BuiltData.uasset'
 [2019.01.23-20.10.31:253][889]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere2)
+[2019.01.23-20.19.49:498][532]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere3)
+[2019.01.23-20.20.17:434][ 25]Cmd: TRANSACTION UNDO
+[2019.01.23-20.20.17:434][ 25]LogEditorTransaction: Undo Move Actors
+[2019.01.23-20.20.17:831][ 25]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush61.BrushComponent0) Component already registered.
+[2019.01.23-20.20.17:832][ 25]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush63.BrushComponent0) Component already registered.
+[2019.01.23-20.20.17:832][ 25]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush62.BrushComponent0) Component already registered.
+[2019.01.23-20.20.17:832][ 25]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush45.BrushComponent0) Component already registered.
+[2019.01.23-20.20.17:832][ 25]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush47.BrushComponent0) Component already registered.
+[2019.01.23-20.20.17:832][ 25]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush41.BrushComponent0) Component already registered.
+[2019.01.23-20.20.17:833][ 25]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush79.BrushComponent0) Component already registered.
+[2019.01.23-20.20.17:833][ 25]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Street_119.BrushComponent0) Component already registered.
+[2019.01.23-20.20.17:834][ 25]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Street_113.BrushComponent0) Component already registered.
+[2019.01.23-20.20.17:834][ 25]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Street_115.BrushComponent0) Component already registered.
+[2019.01.23-20.20.17:834][ 25]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Street_114.BrushComponent0) Component already registered.
+[2019.01.23-20.20.17:834][ 25]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush65.BrushComponent0) Component already registered.
+[2019.01.23-20.20.17:834][ 25]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Sidewalk_51.BrushComponent0) Component already registered.
+[2019.01.23-20.20.17:834][ 25]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Sidewalk_50.BrushComponent0) Component already registered.
+[2019.01.23-20.20.17:835][ 25]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush81.BrushComponent0) Component already registered.
+[2019.01.23-20.20.17:835][ 25]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Sidewalk_43.BrushComponent0) Component already registered.
+[2019.01.23-20.20.17:835][ 25]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Street_93.BrushComponent0) Component already registered.
+[2019.01.23-20.20.17:835][ 25]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Street_92.BrushComponent0) Component already registered.
+[2019.01.23-20.20.17:836][ 25]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Street_80.BrushComponent0) Component already registered.
+[2019.01.23-20.20.17:836][ 25]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush20.BrushComponent0) Component already registered.
+[2019.01.23-20.20.17:836][ 25]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Sidewalk_37.BrushComponent0) Component already registered.
+[2019.01.23-20.20.17:837][ 25]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Street_104.BrushComponent0) Component already registered.
+[2019.01.23-20.20.17:838][ 25]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Sidewalk_46.BrushComponent0) Component already registered.
+[2019.01.23-20.20.17:838][ 25]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Sidewalk_44.BrushComponent0) Component already registered.
+[2019.01.23-20.20.17:838][ 25]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Street_97.BrushComponent0) Component already registered.
+[2019.01.23-20.20.17:838][ 25]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Sidewalk_45.BrushComponent0) Component already registered.
+[2019.01.23-20.20.17:838][ 25]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Street_95.BrushComponent0) Component already registered.
+[2019.01.23-20.20.17:838][ 25]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush26.BrushComponent0) Component already registered.
+[2019.01.23-20.20.17:838][ 25]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush25.BrushComponent0) Component already registered.
+[2019.01.23-20.20.17:839][ 25]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Street_145.BrushComponent0) Component already registered.
+[2019.01.23-20.20.17:840][ 25]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush140.BrushComponent0) Component already registered.
+[2019.01.23-20.20.17:840][ 25]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Street_146.BrushComponent0) Component already registered.
+[2019.01.23-20.20.17:840][ 25]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Sidewalk_61.BrushComponent0) Component already registered.
+[2019.01.23-20.20.17:840][ 25]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Street_138.BrushComponent0) Component already registered.
+[2019.01.23-20.20.17:840][ 25]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush125.BrushComponent0) Component already registered.
+[2019.01.23-20.20.17:841][ 25]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush163.BrushComponent0) Component already registered.
+[2019.01.23-20.20.17:841][ 25]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush159.BrushComponent0) Component already registered.
+[2019.01.23-20.20.17:842][ 25]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush146.BrushComponent0) Component already registered.
+[2019.01.23-20.20.17:842][ 25]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush148.BrushComponent0) Component already registered.
+[2019.01.23-20.20.17:842][ 25]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush147.BrushComponent0) Component already registered.
+[2019.01.23-20.20.17:842][ 25]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush142.BrushComponent0) Component already registered.
+[2019.01.23-20.20.17:842][ 25]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush144.BrushComponent0) Component already registered.
+[2019.01.23-20.20.17:842][ 25]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush143.BrushComponent0) Component already registered.
+[2019.01.23-20.20.17:843][ 25]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Sidewalk_56.BrushComponent0) Component already registered.
+[2019.01.23-20.20.17:843][ 25]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Street_127.BrushComponent0) Component already registered.
+[2019.01.23-20.20.17:843][ 25]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Sidewalk_57.BrushComponent0) Component already registered.
+[2019.01.23-20.20.17:843][ 25]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush87.BrushComponent0) Component already registered.
+[2019.01.23-20.20.17:844][ 25]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush89.BrushComponent0) Component already registered.
+[2019.01.23-20.20.17:844][ 25]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush83.BrushComponent0) Component already registered.
+[2019.01.23-20.20.17:845][ 25]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush121.BrushComponent0) Component already registered.
+[2019.01.23-20.20.17:845][ 25]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush117.BrushComponent0) Component already registered.
+[2019.01.23-20.20.17:845][ 25]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush104.BrushComponent0) Component already registered.
+[2019.01.23-20.20.17:845][ 25]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush106.BrushComponent0) Component already registered.
+[2019.01.23-20.20.17:845][ 25]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush105.BrushComponent0) Component already registered.
+[2019.01.23-20.20.17:845][ 25]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Street_129.BrushComponent0) Component already registered.
+[2019.01.23-20.20.17:846][ 25]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Street_131.BrushComponent0) Component already registered.
+[2019.01.23-20.20.17:846][ 25]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Street_130.BrushComponent0) Component already registered.
+[2019.01.23-20.20.17:846][ 25]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush165.BrushComponent0) Component already registered.
+[2019.01.23-20.20.17:846][ 25]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Street_1.BrushComponent0) Component already registered.
+[2019.01.23-20.20.17:848][ 25]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Box_BenchSeat_35.BrushComponent0) Component already registered.
+[2019.01.23-20.20.17:849][ 25]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Box_BenchSide_14.BrushComponent0) Component already registered.
+[2019.01.23-20.20.17:856][ 25]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Box_BenchSeat_42.BrushComponent0) Component already registered.
+[2019.01.23-20.20.17:856][ 25]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Box_BenchSide_22.BrushComponent0) Component already registered.
+[2019.01.23-20.20.17:856][ 25]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Box_BenchSeat_38.BrushComponent0) Component already registered.
+[2019.01.23-20.20.17:901][ 25]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.GroupActor_32.GroupComponent) Component already registered.
+[2019.01.23-20.20.17:902][ 25]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.GroupActor_38.GroupComponent) Component already registered.
+[2019.01.23-20.20.17:902][ 25]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Sidewalk_29.BrushComponent0) Component already registered.
+[2019.01.23-20.20.17:902][ 25]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Street_58.BrushComponent0) Component already registered.
+[2019.01.23-20.20.17:902][ 25]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Street_57.BrushComponent0) Component already registered.
+[2019.01.23-20.20.17:903][ 25]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Street_45.BrushComponent0) Component already registered.
+[2019.01.23-20.20.17:903][ 25]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush6.BrushComponent0) Component already registered.
+[2019.01.23-20.20.17:903][ 25]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Sidewalk_23.BrushComponent0) Component already registered.
+[2019.01.23-20.20.17:904][ 25]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush17.BrushComponent0) Component already registered.
+[2019.01.23-20.20.17:904][ 25]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Street_72.BrushComponent0) Component already registered.
+[2019.01.23-20.20.17:904][ 25]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Sidewalk_30.BrushComponent0) Component already registered.
+[2019.01.23-20.20.17:904][ 25]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Street_62.BrushComponent0) Component already registered.
+[2019.01.23-20.20.17:905][ 25]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Sidewalk_31.BrushComponent0) Component already registered.
+[2019.01.23-20.20.17:905][ 25]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Street_60.BrushComponent0) Component already registered.
+[2019.01.23-20.20.17:905][ 25]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush12.BrushComponent0) Component already registered.
+[2019.01.23-20.20.17:905][ 25]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush11.BrushComponent0) Component already registered.
+[2019.01.23-20.20.17:907][ 25]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Sidewalk_11.BrushComponent0) Component already registered.
+[2019.01.23-20.20.17:907][ 25]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Sidewalk_13.BrushComponent0) Component already registered.
+[2019.01.23-20.20.17:907][ 25]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Sidewalk_12.BrushComponent0) Component already registered.
+[2019.01.23-20.20.17:908][ 25]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Street_9.BrushComponent0) Component already registered.
+[2019.01.23-20.20.17:908][ 25]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Street_11.BrushComponent0) Component already registered.
+[2019.01.23-20.20.17:908][ 25]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Street_5.BrushComponent0) Component already registered.
+[2019.01.23-20.20.17:910][ 25]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush2.BrushComponent0) Component already registered.
+[2019.01.23-20.20.17:911][ 25]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Street_39.BrushComponent0) Component already registered.
+[2019.01.23-20.20.17:911][ 25]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Street_25.BrushComponent0) Component already registered.
+[2019.01.23-20.20.17:911][ 25]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Sidewalk_16.BrushComponent0) Component already registered.
+[2019.01.23-20.20.17:912][ 25]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Street_26.BrushComponent0) Component already registered.
+[2019.01.23-20.20.17:912][ 25]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Sidewalk_15.BrushComponent0) Component already registered.
+[2019.01.23-20.20.17:912][ 25]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Street_23.BrushComponent0) Component already registered.
+[2019.01.23-20.20.17:912][ 25]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Street_22.BrushComponent0) Component already registered.
+[2019.01.23-20.20.17:913][ 25]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush221.BrushComponent0) Component already registered.
+[2019.01.23-20.20.17:914][ 25]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Box_BenchSide_2.BrushComponent0) Component already registered.
+[2019.01.23-20.20.17:914][ 25]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Box_BenchSide_1.BrushComponent0) Component already registered.
+[2019.01.23-20.20.17:914][ 25]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush217.BrushComponent0) Component already registered.
+[2019.01.23-20.20.17:914][ 25]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush219.BrushComponent0) Component already registered.
+[2019.01.23-20.20.17:914][ 25]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush218.BrushComponent0) Component already registered.
+[2019.01.23-20.20.17:917][ 25]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Box_BenchSeat_14.BrushComponent0) Component already registered.
+[2019.01.23-20.20.17:917][ 25]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Box_BenchSeat_16.BrushComponent0) Component already registered.
+[2019.01.23-20.20.17:917][ 25]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.SphereBrush3.BrushComponent0) Component already registered.
+[2019.01.23-20.20.17:919][ 25]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Sidewalk_69.BrushComponent0) Component already registered.
+[2019.01.23-20.20.17:920][ 25]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Street_158.BrushComponent0) Component already registered.
+[2019.01.23-20.20.17:920][ 25]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Street_157.BrushComponent0) Component already registered.
+[2019.01.23-20.20.17:920][ 25]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush175.BrushComponent0) Component already registered.
+[2019.01.23-20.20.17:920][ 25]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush177.BrushComponent0) Component already registered.
+[2019.01.23-20.20.17:920][ 25]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush176.BrushComponent0) Component already registered.
+[2019.01.23-20.20.17:922][ 25]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush197.BrushComponent0) Component already registered.
+[2019.01.23-20.20.17:923][ 25]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush199.BrushComponent0) Component already registered.
+[2019.01.23-20.20.17:923][ 25]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush193.BrushComponent0) Component already registered.
+[2019.01.23-20.20.17:926][ 25]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush237.BrushComponent0) Component already registered.
+[2019.01.23-20.20.17:926][ 25]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush240.BrushComponent0) Component already registered.
+[2019.01.23-20.20.17:926][ 25]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.CylinderBrush22.BrushComponent0) Component already registered.
+[2019.01.23-20.20.17:928][ 25]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.SphereBrush43.BrushComponent0) Component already registered.
+[2019.01.23-20.20.17:928][ 25]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.CylinderBrush31.BrushComponent0) Component already registered.
+[2019.01.23-20.20.17:929][ 25]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.SphereBrush44.BrushComponent0) Component already registered.
+[2019.01.23-20.20.17:929][ 25]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.CylinderBrush8.BrushComponent0) Component already registered.
+[2019.01.23-20.20.17:929][ 25]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.CylinderBrush9.BrushComponent0) Component already registered.
+[2019.01.23-20.20.17:929][ 25]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush227.BrushComponent0) Component already registered.
+[2019.01.23-20.20.17:929][ 25]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush224.BrushComponent0) Component already registered.
+[2019.01.23-20.20.17:930][ 25]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush226.BrushComponent0) Component already registered.
+[2019.01.23-20.20.17:930][ 25]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush225.BrushComponent0) Component already registered.
+[2019.01.23-20.20.17:931][ 25]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.SphereBrush11.BrushComponent0) Component already registered.
+[2019.01.23-20.20.17:931][ 25]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush222.BrushComponent0) Component already registered.
+[2019.01.23-20.20.17:931][ 25]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.SphereBrush12.BrushComponent0) Component already registered.
+[2019.01.23-20.20.17:932][ 25]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush235.BrushComponent0) Component already registered.
+[2019.01.23-20.20.17:932][ 25]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.CylinderBrush13.BrushComponent0) Component already registered.
+[2019.01.23-20.20.25:243][156]Cmd: TRANSACTION UNDO
+[2019.01.23-20.20.25:243][156]LogEditorTransaction: Undo Move Actors
+[2019.01.23-20.20.25:591][156]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush61.BrushComponent0) Component already registered.
+[2019.01.23-20.20.25:591][156]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush63.BrushComponent0) Component already registered.
+[2019.01.23-20.20.25:591][156]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush62.BrushComponent0) Component already registered.
+[2019.01.23-20.20.25:592][156]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush45.BrushComponent0) Component already registered.
+[2019.01.23-20.20.25:592][156]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush47.BrushComponent0) Component already registered.
+[2019.01.23-20.20.25:592][156]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush41.BrushComponent0) Component already registered.
+[2019.01.23-20.20.25:593][156]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush79.BrushComponent0) Component already registered.
+[2019.01.23-20.20.25:593][156]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Street_119.BrushComponent0) Component already registered.
+[2019.01.23-20.20.25:594][156]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Street_113.BrushComponent0) Component already registered.
+[2019.01.23-20.20.25:594][156]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Street_115.BrushComponent0) Component already registered.
+[2019.01.23-20.20.25:594][156]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Street_114.BrushComponent0) Component already registered.
+[2019.01.23-20.20.25:594][156]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush65.BrushComponent0) Component already registered.
+[2019.01.23-20.20.25:594][156]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Sidewalk_51.BrushComponent0) Component already registered.
+[2019.01.23-20.20.25:594][156]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Sidewalk_50.BrushComponent0) Component already registered.
+[2019.01.23-20.20.25:595][156]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush81.BrushComponent0) Component already registered.
+[2019.01.23-20.20.25:595][156]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Sidewalk_43.BrushComponent0) Component already registered.
+[2019.01.23-20.20.25:595][156]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Street_93.BrushComponent0) Component already registered.
+[2019.01.23-20.20.25:595][156]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Street_92.BrushComponent0) Component already registered.
+[2019.01.23-20.20.25:596][156]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Street_80.BrushComponent0) Component already registered.
+[2019.01.23-20.20.25:596][156]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush20.BrushComponent0) Component already registered.
+[2019.01.23-20.20.25:596][156]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Sidewalk_37.BrushComponent0) Component already registered.
+[2019.01.23-20.20.25:597][156]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Street_104.BrushComponent0) Component already registered.
+[2019.01.23-20.20.25:597][156]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Sidewalk_46.BrushComponent0) Component already registered.
+[2019.01.23-20.20.25:597][156]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Sidewalk_44.BrushComponent0) Component already registered.
+[2019.01.23-20.20.25:597][156]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Street_97.BrushComponent0) Component already registered.
+[2019.01.23-20.20.25:597][156]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Sidewalk_45.BrushComponent0) Component already registered.
+[2019.01.23-20.20.25:597][156]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Street_95.BrushComponent0) Component already registered.
+[2019.01.23-20.20.25:598][156]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush26.BrushComponent0) Component already registered.
+[2019.01.23-20.20.25:598][156]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush25.BrushComponent0) Component already registered.
+[2019.01.23-20.20.25:599][156]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Street_145.BrushComponent0) Component already registered.
+[2019.01.23-20.20.25:599][156]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush140.BrushComponent0) Component already registered.
+[2019.01.23-20.20.25:599][156]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Street_146.BrushComponent0) Component already registered.
+[2019.01.23-20.20.25:599][156]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Sidewalk_61.BrushComponent0) Component already registered.
+[2019.01.23-20.20.25:599][156]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Street_138.BrushComponent0) Component already registered.
+[2019.01.23-20.20.25:599][156]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush125.BrushComponent0) Component already registered.
+[2019.01.23-20.20.25:600][156]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush163.BrushComponent0) Component already registered.
+[2019.01.23-20.20.25:600][156]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush159.BrushComponent0) Component already registered.
+[2019.01.23-20.20.25:601][156]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush146.BrushComponent0) Component already registered.
+[2019.01.23-20.20.25:601][156]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush148.BrushComponent0) Component already registered.
+[2019.01.23-20.20.25:601][156]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush147.BrushComponent0) Component already registered.
+[2019.01.23-20.20.25:601][156]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush142.BrushComponent0) Component already registered.
+[2019.01.23-20.20.25:601][156]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush144.BrushComponent0) Component already registered.
+[2019.01.23-20.20.25:601][156]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush143.BrushComponent0) Component already registered.
+[2019.01.23-20.20.25:602][156]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Sidewalk_56.BrushComponent0) Component already registered.
+[2019.01.23-20.20.25:602][156]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Street_127.BrushComponent0) Component already registered.
+[2019.01.23-20.20.25:602][156]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Sidewalk_57.BrushComponent0) Component already registered.
+[2019.01.23-20.20.25:603][156]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush87.BrushComponent0) Component already registered.
+[2019.01.23-20.20.25:603][156]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush89.BrushComponent0) Component already registered.
+[2019.01.23-20.20.25:603][156]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush83.BrushComponent0) Component already registered.
+[2019.01.23-20.20.25:604][156]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush121.BrushComponent0) Component already registered.
+[2019.01.23-20.20.25:604][156]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush117.BrushComponent0) Component already registered.
+[2019.01.23-20.20.25:604][156]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush104.BrushComponent0) Component already registered.
+[2019.01.23-20.20.25:604][156]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush106.BrushComponent0) Component already registered.
+[2019.01.23-20.20.25:605][156]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush105.BrushComponent0) Component already registered.
+[2019.01.23-20.20.25:605][156]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Street_129.BrushComponent0) Component already registered.
+[2019.01.23-20.20.25:605][156]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Street_131.BrushComponent0) Component already registered.
+[2019.01.23-20.20.25:605][156]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Street_130.BrushComponent0) Component already registered.
+[2019.01.23-20.20.25:606][156]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush165.BrushComponent0) Component already registered.
+[2019.01.23-20.20.25:606][156]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Street_1.BrushComponent0) Component already registered.
+[2019.01.23-20.20.25:607][156]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Box_BenchSeat_35.BrushComponent0) Component already registered.
+[2019.01.23-20.20.25:608][156]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Box_BenchSide_14.BrushComponent0) Component already registered.
+[2019.01.23-20.20.25:610][156]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Box_BenchSeat_42.BrushComponent0) Component already registered.
+[2019.01.23-20.20.25:610][156]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Box_BenchSide_22.BrushComponent0) Component already registered.
+[2019.01.23-20.20.25:610][156]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Box_BenchSeat_38.BrushComponent0) Component already registered.
+[2019.01.23-20.20.25:658][156]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.GroupActor_32.GroupComponent) Component already registered.
+[2019.01.23-20.20.25:658][156]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.GroupActor_38.GroupComponent) Component already registered.
+[2019.01.23-20.20.25:659][156]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Sidewalk_29.BrushComponent0) Component already registered.
+[2019.01.23-20.20.25:659][156]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Street_58.BrushComponent0) Component already registered.
+[2019.01.23-20.20.25:659][156]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Street_57.BrushComponent0) Component already registered.
+[2019.01.23-20.20.25:659][156]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Street_45.BrushComponent0) Component already registered.
+[2019.01.23-20.20.25:659][156]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush6.BrushComponent0) Component already registered.
+[2019.01.23-20.20.25:659][156]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Sidewalk_23.BrushComponent0) Component already registered.
+[2019.01.23-20.20.25:661][156]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush17.BrushComponent0) Component already registered.
+[2019.01.23-20.20.25:661][156]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Street_72.BrushComponent0) Component already registered.
+[2019.01.23-20.20.25:661][156]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Sidewalk_30.BrushComponent0) Component already registered.
+[2019.01.23-20.20.25:661][156]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Street_62.BrushComponent0) Component already registered.
+[2019.01.23-20.20.25:661][156]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Sidewalk_31.BrushComponent0) Component already registered.
+[2019.01.23-20.20.25:661][156]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Street_60.BrushComponent0) Component already registered.
+[2019.01.23-20.20.25:661][156]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush12.BrushComponent0) Component already registered.
+[2019.01.23-20.20.25:661][156]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush11.BrushComponent0) Component already registered.
+[2019.01.23-20.20.25:662][156]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Sidewalk_11.BrushComponent0) Component already registered.
+[2019.01.23-20.20.25:663][156]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Sidewalk_13.BrushComponent0) Component already registered.
+[2019.01.23-20.20.25:663][156]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Sidewalk_12.BrushComponent0) Component already registered.
+[2019.01.23-20.20.25:663][156]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Street_9.BrushComponent0) Component already registered.
+[2019.01.23-20.20.25:663][156]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Street_11.BrushComponent0) Component already registered.
+[2019.01.23-20.20.25:663][156]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Street_5.BrushComponent0) Component already registered.
+[2019.01.23-20.20.25:664][156]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush2.BrushComponent0) Component already registered.
+[2019.01.23-20.20.25:664][156]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Street_39.BrushComponent0) Component already registered.
+[2019.01.23-20.20.25:665][156]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Street_25.BrushComponent0) Component already registered.
+[2019.01.23-20.20.25:665][156]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Sidewalk_16.BrushComponent0) Component already registered.
+[2019.01.23-20.20.25:665][156]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Street_26.BrushComponent0) Component already registered.
+[2019.01.23-20.20.25:665][156]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Sidewalk_15.BrushComponent0) Component already registered.
+[2019.01.23-20.20.25:665][156]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Street_23.BrushComponent0) Component already registered.
+[2019.01.23-20.20.25:665][156]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Street_22.BrushComponent0) Component already registered.
+[2019.01.23-20.20.25:666][156]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush221.BrushComponent0) Component already registered.
+[2019.01.23-20.20.25:666][156]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Box_BenchSide_2.BrushComponent0) Component already registered.
+[2019.01.23-20.20.25:666][156]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Box_BenchSide_1.BrushComponent0) Component already registered.
+[2019.01.23-20.20.25:666][156]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush217.BrushComponent0) Component already registered.
+[2019.01.23-20.20.25:666][156]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush219.BrushComponent0) Component already registered.
+[2019.01.23-20.20.25:666][156]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush218.BrushComponent0) Component already registered.
+[2019.01.23-20.20.25:668][156]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Box_BenchSeat_14.BrushComponent0) Component already registered.
+[2019.01.23-20.20.25:669][156]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Box_BenchSeat_16.BrushComponent0) Component already registered.
+[2019.01.23-20.20.25:669][156]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.SphereBrush3.BrushComponent0) Component already registered.
+[2019.01.23-20.20.25:671][156]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Sidewalk_69.BrushComponent0) Component already registered.
+[2019.01.23-20.20.25:672][156]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Street_158.BrushComponent0) Component already registered.
+[2019.01.23-20.20.25:672][156]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Street_157.BrushComponent0) Component already registered.
+[2019.01.23-20.20.25:672][156]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush175.BrushComponent0) Component already registered.
+[2019.01.23-20.20.25:672][156]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush177.BrushComponent0) Component already registered.
+[2019.01.23-20.20.25:672][156]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush176.BrushComponent0) Component already registered.
+[2019.01.23-20.20.25:674][156]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush197.BrushComponent0) Component already registered.
+[2019.01.23-20.20.25:675][156]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush199.BrushComponent0) Component already registered.
+[2019.01.23-20.20.25:675][156]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush193.BrushComponent0) Component already registered.
+[2019.01.23-20.20.25:679][156]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush237.BrushComponent0) Component already registered.
+[2019.01.23-20.20.25:679][156]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush240.BrushComponent0) Component already registered.
+[2019.01.23-20.20.25:679][156]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.CylinderBrush22.BrushComponent0) Component already registered.
+[2019.01.23-20.20.25:682][156]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.SphereBrush43.BrushComponent0) Component already registered.
+[2019.01.23-20.20.25:682][156]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.CylinderBrush31.BrushComponent0) Component already registered.
+[2019.01.23-20.20.25:682][156]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.SphereBrush44.BrushComponent0) Component already registered.
+[2019.01.23-20.20.25:683][156]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.CylinderBrush8.BrushComponent0) Component already registered.
+[2019.01.23-20.20.25:683][156]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.CylinderBrush9.BrushComponent0) Component already registered.
+[2019.01.23-20.20.25:683][156]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush227.BrushComponent0) Component already registered.
+[2019.01.23-20.20.25:683][156]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush224.BrushComponent0) Component already registered.
+[2019.01.23-20.20.25:683][156]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush226.BrushComponent0) Component already registered.
+[2019.01.23-20.20.25:684][156]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush225.BrushComponent0) Component already registered.
+[2019.01.23-20.20.25:686][156]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.SphereBrush11.BrushComponent0) Component already registered.
+[2019.01.23-20.20.25:686][156]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush222.BrushComponent0) Component already registered.
+[2019.01.23-20.20.25:686][156]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.SphereBrush12.BrushComponent0) Component already registered.
+[2019.01.23-20.20.25:687][156]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush235.BrushComponent0) Component already registered.
+[2019.01.23-20.20.25:688][156]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.CylinderBrush13.BrushComponent0) Component already registered.
+[2019.01.23-20.20.36:763][356]Cmd: TRANSACTION UNDO
+[2019.01.23-20.20.36:763][356]LogEditorTransaction: Undo Move Actors
+[2019.01.23-20.20.37:100][356]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush61.BrushComponent0) Component already registered.
+[2019.01.23-20.20.37:100][356]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush63.BrushComponent0) Component already registered.
+[2019.01.23-20.20.37:101][356]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush62.BrushComponent0) Component already registered.
+[2019.01.23-20.20.37:101][356]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush45.BrushComponent0) Component already registered.
+[2019.01.23-20.20.37:101][356]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush47.BrushComponent0) Component already registered.
+[2019.01.23-20.20.37:101][356]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush41.BrushComponent0) Component already registered.
+[2019.01.23-20.20.37:102][356]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush79.BrushComponent0) Component already registered.
+[2019.01.23-20.20.37:102][356]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Street_119.BrushComponent0) Component already registered.
+[2019.01.23-20.20.37:102][356]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Street_113.BrushComponent0) Component already registered.
+[2019.01.23-20.20.37:102][356]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Street_115.BrushComponent0) Component already registered.
+[2019.01.23-20.20.37:102][356]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Street_114.BrushComponent0) Component already registered.
+[2019.01.23-20.20.37:102][356]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush65.BrushComponent0) Component already registered.
+[2019.01.23-20.20.37:102][356]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Sidewalk_51.BrushComponent0) Component already registered.
+[2019.01.23-20.20.37:102][356]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Sidewalk_50.BrushComponent0) Component already registered.
+[2019.01.23-20.20.37:102][356]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush81.BrushComponent0) Component already registered.
+[2019.01.23-20.20.37:103][356]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Sidewalk_43.BrushComponent0) Component already registered.
+[2019.01.23-20.20.37:104][356]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Street_93.BrushComponent0) Component already registered.
+[2019.01.23-20.20.37:104][356]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Street_92.BrushComponent0) Component already registered.
+[2019.01.23-20.20.37:104][356]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Street_80.BrushComponent0) Component already registered.
+[2019.01.23-20.20.37:105][356]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush20.BrushComponent0) Component already registered.
+[2019.01.23-20.20.37:105][356]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Sidewalk_37.BrushComponent0) Component already registered.
+[2019.01.23-20.20.37:107][356]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Street_104.BrushComponent0) Component already registered.
+[2019.01.23-20.20.37:107][356]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Sidewalk_46.BrushComponent0) Component already registered.
+[2019.01.23-20.20.37:107][356]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Sidewalk_44.BrushComponent0) Component already registered.
+[2019.01.23-20.20.37:107][356]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Street_97.BrushComponent0) Component already registered.
+[2019.01.23-20.20.37:107][356]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Sidewalk_45.BrushComponent0) Component already registered.
+[2019.01.23-20.20.37:108][356]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Street_95.BrushComponent0) Component already registered.
+[2019.01.23-20.20.37:108][356]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush26.BrushComponent0) Component already registered.
+[2019.01.23-20.20.37:108][356]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush25.BrushComponent0) Component already registered.
+[2019.01.23-20.20.37:109][356]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Street_145.BrushComponent0) Component already registered.
+[2019.01.23-20.20.37:109][356]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush140.BrushComponent0) Component already registered.
+[2019.01.23-20.20.37:109][356]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Street_146.BrushComponent0) Component already registered.
+[2019.01.23-20.20.37:110][356]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Sidewalk_61.BrushComponent0) Component already registered.
+[2019.01.23-20.20.37:110][356]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Street_138.BrushComponent0) Component already registered.
+[2019.01.23-20.20.37:110][356]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush125.BrushComponent0) Component already registered.
+[2019.01.23-20.20.37:111][356]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush163.BrushComponent0) Component already registered.
+[2019.01.23-20.20.37:111][356]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush159.BrushComponent0) Component already registered.
+[2019.01.23-20.20.37:111][356]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush146.BrushComponent0) Component already registered.
+[2019.01.23-20.20.37:112][356]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush148.BrushComponent0) Component already registered.
+[2019.01.23-20.20.37:112][356]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush147.BrushComponent0) Component already registered.
+[2019.01.23-20.20.37:112][356]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush142.BrushComponent0) Component already registered.
+[2019.01.23-20.20.37:112][356]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush144.BrushComponent0) Component already registered.
+[2019.01.23-20.20.37:112][356]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush143.BrushComponent0) Component already registered.
+[2019.01.23-20.20.37:113][356]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Sidewalk_56.BrushComponent0) Component already registered.
+[2019.01.23-20.20.37:113][356]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Street_127.BrushComponent0) Component already registered.
+[2019.01.23-20.20.37:113][356]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Sidewalk_57.BrushComponent0) Component already registered.
+[2019.01.23-20.20.37:113][356]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush87.BrushComponent0) Component already registered.
+[2019.01.23-20.20.37:113][356]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush89.BrushComponent0) Component already registered.
+[2019.01.23-20.20.37:114][356]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush83.BrushComponent0) Component already registered.
+[2019.01.23-20.20.37:115][356]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush121.BrushComponent0) Component already registered.
+[2019.01.23-20.20.37:115][356]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush117.BrushComponent0) Component already registered.
+[2019.01.23-20.20.37:115][356]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush104.BrushComponent0) Component already registered.
+[2019.01.23-20.20.37:115][356]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush106.BrushComponent0) Component already registered.
+[2019.01.23-20.20.37:115][356]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush105.BrushComponent0) Component already registered.
+[2019.01.23-20.20.37:115][356]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Street_129.BrushComponent0) Component already registered.
+[2019.01.23-20.20.37:115][356]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Street_131.BrushComponent0) Component already registered.
+[2019.01.23-20.20.37:115][356]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Street_130.BrushComponent0) Component already registered.
+[2019.01.23-20.20.37:116][356]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush165.BrushComponent0) Component already registered.
+[2019.01.23-20.20.37:116][356]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Street_1.BrushComponent0) Component already registered.
+[2019.01.23-20.20.37:118][356]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Box_BenchSeat_35.BrushComponent0) Component already registered.
+[2019.01.23-20.20.37:118][356]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Box_BenchSide_14.BrushComponent0) Component already registered.
+[2019.01.23-20.20.37:120][356]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Box_BenchSeat_42.BrushComponent0) Component already registered.
+[2019.01.23-20.20.37:120][356]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Box_BenchSide_22.BrushComponent0) Component already registered.
+[2019.01.23-20.20.37:120][356]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Box_BenchSeat_38.BrushComponent0) Component already registered.
+[2019.01.23-20.20.37:165][356]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.GroupActor_32.GroupComponent) Component already registered.
+[2019.01.23-20.20.37:165][356]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.GroupActor_38.GroupComponent) Component already registered.
+[2019.01.23-20.20.37:166][356]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Sidewalk_29.BrushComponent0) Component already registered.
+[2019.01.23-20.20.37:166][356]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Street_58.BrushComponent0) Component already registered.
+[2019.01.23-20.20.37:166][356]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Street_57.BrushComponent0) Component already registered.
+[2019.01.23-20.20.37:166][356]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Street_45.BrushComponent0) Component already registered.
+[2019.01.23-20.20.37:166][356]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush6.BrushComponent0) Component already registered.
+[2019.01.23-20.20.37:166][356]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Sidewalk_23.BrushComponent0) Component already registered.
+[2019.01.23-20.20.37:167][356]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush17.BrushComponent0) Component already registered.
+[2019.01.23-20.20.37:168][356]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Street_72.BrushComponent0) Component already registered.
+[2019.01.23-20.20.37:168][356]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Sidewalk_30.BrushComponent0) Component already registered.
+[2019.01.23-20.20.37:168][356]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Street_62.BrushComponent0) Component already registered.
+[2019.01.23-20.20.37:168][356]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Sidewalk_31.BrushComponent0) Component already registered.
+[2019.01.23-20.20.37:168][356]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Street_60.BrushComponent0) Component already registered.
+[2019.01.23-20.20.37:168][356]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush12.BrushComponent0) Component already registered.
+[2019.01.23-20.20.37:168][356]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush11.BrushComponent0) Component already registered.
+[2019.01.23-20.20.37:169][356]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Sidewalk_11.BrushComponent0) Component already registered.
+[2019.01.23-20.20.37:170][356]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Sidewalk_13.BrushComponent0) Component already registered.
+[2019.01.23-20.20.37:170][356]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Sidewalk_12.BrushComponent0) Component already registered.
+[2019.01.23-20.20.37:170][356]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Street_9.BrushComponent0) Component already registered.
+[2019.01.23-20.20.37:170][356]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Street_11.BrushComponent0) Component already registered.
+[2019.01.23-20.20.37:170][356]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Street_5.BrushComponent0) Component already registered.
+[2019.01.23-20.20.37:171][356]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush2.BrushComponent0) Component already registered.
+[2019.01.23-20.20.37:171][356]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Street_39.BrushComponent0) Component already registered.
+[2019.01.23-20.20.37:172][356]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Street_25.BrushComponent0) Component already registered.
+[2019.01.23-20.20.37:172][356]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Sidewalk_16.BrushComponent0) Component already registered.
+[2019.01.23-20.20.37:172][356]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Street_26.BrushComponent0) Component already registered.
+[2019.01.23-20.20.37:172][356]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Sidewalk_15.BrushComponent0) Component already registered.
+[2019.01.23-20.20.37:172][356]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Street_23.BrushComponent0) Component already registered.
+[2019.01.23-20.20.37:172][356]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Street_22.BrushComponent0) Component already registered.
+[2019.01.23-20.20.37:173][356]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush221.BrushComponent0) Component already registered.
+[2019.01.23-20.20.37:173][356]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Box_BenchSide_2.BrushComponent0) Component already registered.
+[2019.01.23-20.20.37:173][356]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Box_BenchSide_1.BrushComponent0) Component already registered.
+[2019.01.23-20.20.37:173][356]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush217.BrushComponent0) Component already registered.
+[2019.01.23-20.20.37:173][356]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush219.BrushComponent0) Component already registered.
+[2019.01.23-20.20.37:173][356]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush218.BrushComponent0) Component already registered.
+[2019.01.23-20.20.37:175][356]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Box_BenchSeat_14.BrushComponent0) Component already registered.
+[2019.01.23-20.20.37:175][356]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Box_BenchSeat_16.BrushComponent0) Component already registered.
+[2019.01.23-20.20.37:175][356]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.SphereBrush3.BrushComponent0) Component already registered.
+[2019.01.23-20.20.37:176][356]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Sidewalk_69.BrushComponent0) Component already registered.
+[2019.01.23-20.20.37:177][356]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Street_158.BrushComponent0) Component already registered.
+[2019.01.23-20.20.37:177][356]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Street_157.BrushComponent0) Component already registered.
+[2019.01.23-20.20.37:177][356]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush175.BrushComponent0) Component already registered.
+[2019.01.23-20.20.37:177][356]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush177.BrushComponent0) Component already registered.
+[2019.01.23-20.20.37:177][356]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush176.BrushComponent0) Component already registered.
+[2019.01.23-20.20.37:178][356]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush197.BrushComponent0) Component already registered.
+[2019.01.23-20.20.37:179][356]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush199.BrushComponent0) Component already registered.
+[2019.01.23-20.20.37:179][356]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush193.BrushComponent0) Component already registered.
+[2019.01.23-20.20.37:181][356]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush237.BrushComponent0) Component already registered.
+[2019.01.23-20.20.37:181][356]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush240.BrushComponent0) Component already registered.
+[2019.01.23-20.20.37:181][356]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.CylinderBrush22.BrushComponent0) Component already registered.
+[2019.01.23-20.20.37:183][356]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.SphereBrush43.BrushComponent0) Component already registered.
+[2019.01.23-20.20.37:183][356]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.CylinderBrush31.BrushComponent0) Component already registered.
+[2019.01.23-20.20.37:183][356]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.SphereBrush44.BrushComponent0) Component already registered.
+[2019.01.23-20.20.37:183][356]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.CylinderBrush8.BrushComponent0) Component already registered.
+[2019.01.23-20.20.37:183][356]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.CylinderBrush9.BrushComponent0) Component already registered.
+[2019.01.23-20.20.37:183][356]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush227.BrushComponent0) Component already registered.
+[2019.01.23-20.20.37:184][356]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush224.BrushComponent0) Component already registered.
+[2019.01.23-20.20.37:184][356]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush226.BrushComponent0) Component already registered.
+[2019.01.23-20.20.37:184][356]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush225.BrushComponent0) Component already registered.
+[2019.01.23-20.20.37:185][356]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.SphereBrush11.BrushComponent0) Component already registered.
+[2019.01.23-20.20.37:185][356]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush222.BrushComponent0) Component already registered.
+[2019.01.23-20.20.37:185][356]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.SphereBrush12.BrushComponent0) Component already registered.
+[2019.01.23-20.20.37:186][356]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush235.BrushComponent0) Component already registered.
+[2019.01.23-20.20.37:186][356]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.CylinderBrush13.BrushComponent0) Component already registered.
+[2019.01.23-20.20.48:318][568]Cmd: TRANSACTION UNDO
+[2019.01.23-20.20.48:318][568]LogEditorTransaction: Undo Move Actors
+[2019.01.23-20.20.48:649][568]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush61.BrushComponent0) Component already registered.
+[2019.01.23-20.20.48:649][568]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush63.BrushComponent0) Component already registered.
+[2019.01.23-20.20.48:649][568]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush62.BrushComponent0) Component already registered.
+[2019.01.23-20.20.48:650][568]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush45.BrushComponent0) Component already registered.
+[2019.01.23-20.20.48:650][568]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush47.BrushComponent0) Component already registered.
+[2019.01.23-20.20.48:650][568]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush41.BrushComponent0) Component already registered.
+[2019.01.23-20.20.48:651][568]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush79.BrushComponent0) Component already registered.
+[2019.01.23-20.20.48:651][568]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Street_119.BrushComponent0) Component already registered.
+[2019.01.23-20.20.48:652][568]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Street_113.BrushComponent0) Component already registered.
+[2019.01.23-20.20.48:652][568]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Street_115.BrushComponent0) Component already registered.
+[2019.01.23-20.20.48:652][568]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Street_114.BrushComponent0) Component already registered.
+[2019.01.23-20.20.48:652][568]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush65.BrushComponent0) Component already registered.
+[2019.01.23-20.20.48:652][568]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Sidewalk_51.BrushComponent0) Component already registered.
+[2019.01.23-20.20.48:652][568]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Sidewalk_50.BrushComponent0) Component already registered.
+[2019.01.23-20.20.48:653][568]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush81.BrushComponent0) Component already registered.
+[2019.01.23-20.20.48:654][568]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Sidewalk_43.BrushComponent0) Component already registered.
+[2019.01.23-20.20.48:654][568]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Street_93.BrushComponent0) Component already registered.
+[2019.01.23-20.20.48:654][568]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Street_92.BrushComponent0) Component already registered.
+[2019.01.23-20.20.48:654][568]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Street_80.BrushComponent0) Component already registered.
+[2019.01.23-20.20.48:655][568]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush20.BrushComponent0) Component already registered.
+[2019.01.23-20.20.48:655][568]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Sidewalk_37.BrushComponent0) Component already registered.
+[2019.01.23-20.20.48:656][568]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Street_104.BrushComponent0) Component already registered.
+[2019.01.23-20.20.48:656][568]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Sidewalk_46.BrushComponent0) Component already registered.
+[2019.01.23-20.20.48:656][568]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Sidewalk_44.BrushComponent0) Component already registered.
+[2019.01.23-20.20.48:656][568]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Street_97.BrushComponent0) Component already registered.
+[2019.01.23-20.20.48:656][568]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Sidewalk_45.BrushComponent0) Component already registered.
+[2019.01.23-20.20.48:657][568]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Street_95.BrushComponent0) Component already registered.
+[2019.01.23-20.20.48:657][568]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush26.BrushComponent0) Component already registered.
+[2019.01.23-20.20.48:657][568]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush25.BrushComponent0) Component already registered.
+[2019.01.23-20.20.48:658][568]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Street_145.BrushComponent0) Component already registered.
+[2019.01.23-20.20.48:658][568]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush140.BrushComponent0) Component already registered.
+[2019.01.23-20.20.48:658][568]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Street_146.BrushComponent0) Component already registered.
+[2019.01.23-20.20.48:658][568]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Sidewalk_61.BrushComponent0) Component already registered.
+[2019.01.23-20.20.48:658][568]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Street_138.BrushComponent0) Component already registered.
+[2019.01.23-20.20.48:658][568]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush125.BrushComponent0) Component already registered.
+[2019.01.23-20.20.48:659][568]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush163.BrushComponent0) Component already registered.
+[2019.01.23-20.20.48:660][568]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush159.BrushComponent0) Component already registered.
+[2019.01.23-20.20.48:660][568]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush146.BrushComponent0) Component already registered.
+[2019.01.23-20.20.48:660][568]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush148.BrushComponent0) Component already registered.
+[2019.01.23-20.20.48:660][568]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush147.BrushComponent0) Component already registered.
+[2019.01.23-20.20.48:660][568]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush142.BrushComponent0) Component already registered.
+[2019.01.23-20.20.48:660][568]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush144.BrushComponent0) Component already registered.
+[2019.01.23-20.20.48:660][568]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush143.BrushComponent0) Component already registered.
+[2019.01.23-20.20.48:661][568]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Sidewalk_56.BrushComponent0) Component already registered.
+[2019.01.23-20.20.48:661][568]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Street_127.BrushComponent0) Component already registered.
+[2019.01.23-20.20.48:661][568]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Sidewalk_57.BrushComponent0) Component already registered.
+[2019.01.23-20.20.48:662][568]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush87.BrushComponent0) Component already registered.
+[2019.01.23-20.20.48:662][568]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush89.BrushComponent0) Component already registered.
+[2019.01.23-20.20.48:662][568]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush83.BrushComponent0) Component already registered.
+[2019.01.23-20.20.48:663][568]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush121.BrushComponent0) Component already registered.
+[2019.01.23-20.20.48:663][568]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush117.BrushComponent0) Component already registered.
+[2019.01.23-20.20.48:663][568]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush104.BrushComponent0) Component already registered.
+[2019.01.23-20.20.48:663][568]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush106.BrushComponent0) Component already registered.
+[2019.01.23-20.20.48:663][568]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush105.BrushComponent0) Component already registered.
+[2019.01.23-20.20.48:664][568]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Street_129.BrushComponent0) Component already registered.
+[2019.01.23-20.20.48:664][568]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Street_131.BrushComponent0) Component already registered.
+[2019.01.23-20.20.48:664][568]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Street_130.BrushComponent0) Component already registered.
+[2019.01.23-20.20.48:664][568]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush165.BrushComponent0) Component already registered.
+[2019.01.23-20.20.48:665][568]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Street_1.BrushComponent0) Component already registered.
+[2019.01.23-20.20.48:666][568]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Box_BenchSeat_35.BrushComponent0) Component already registered.
+[2019.01.23-20.20.48:667][568]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Box_BenchSide_14.BrushComponent0) Component already registered.
+[2019.01.23-20.20.48:668][568]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Box_BenchSeat_42.BrushComponent0) Component already registered.
+[2019.01.23-20.20.48:669][568]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Box_BenchSide_22.BrushComponent0) Component already registered.
+[2019.01.23-20.20.48:669][568]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Box_BenchSeat_38.BrushComponent0) Component already registered.
+[2019.01.23-20.20.48:713][568]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.GroupActor_32.GroupComponent) Component already registered.
+[2019.01.23-20.20.48:713][568]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.GroupActor_38.GroupComponent) Component already registered.
+[2019.01.23-20.20.48:713][568]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Sidewalk_29.BrushComponent0) Component already registered.
+[2019.01.23-20.20.48:713][568]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Street_58.BrushComponent0) Component already registered.
+[2019.01.23-20.20.48:714][568]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Street_57.BrushComponent0) Component already registered.
+[2019.01.23-20.20.48:714][568]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Street_45.BrushComponent0) Component already registered.
+[2019.01.23-20.20.48:714][568]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush6.BrushComponent0) Component already registered.
+[2019.01.23-20.20.48:714][568]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Sidewalk_23.BrushComponent0) Component already registered.
+[2019.01.23-20.20.48:715][568]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush17.BrushComponent0) Component already registered.
+[2019.01.23-20.20.48:715][568]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Street_72.BrushComponent0) Component already registered.
+[2019.01.23-20.20.48:715][568]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Sidewalk_30.BrushComponent0) Component already registered.
+[2019.01.23-20.20.48:716][568]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Street_62.BrushComponent0) Component already registered.
+[2019.01.23-20.20.48:716][568]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Sidewalk_31.BrushComponent0) Component already registered.
+[2019.01.23-20.20.48:716][568]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Street_60.BrushComponent0) Component already registered.
+[2019.01.23-20.20.48:716][568]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush12.BrushComponent0) Component already registered.
+[2019.01.23-20.20.48:716][568]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush11.BrushComponent0) Component already registered.
+[2019.01.23-20.20.48:717][568]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Sidewalk_11.BrushComponent0) Component already registered.
+[2019.01.23-20.20.48:717][568]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Sidewalk_13.BrushComponent0) Component already registered.
+[2019.01.23-20.20.48:717][568]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Sidewalk_12.BrushComponent0) Component already registered.
+[2019.01.23-20.20.48:718][568]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Street_9.BrushComponent0) Component already registered.
+[2019.01.23-20.20.48:718][568]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Street_11.BrushComponent0) Component already registered.
+[2019.01.23-20.20.48:718][568]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Street_5.BrushComponent0) Component already registered.
+[2019.01.23-20.20.48:720][568]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush2.BrushComponent0) Component already registered.
+[2019.01.23-20.20.48:720][568]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Street_39.BrushComponent0) Component already registered.
+[2019.01.23-20.20.48:720][568]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Street_25.BrushComponent0) Component already registered.
+[2019.01.23-20.20.48:720][568]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Sidewalk_16.BrushComponent0) Component already registered.
+[2019.01.23-20.20.48:720][568]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Street_26.BrushComponent0) Component already registered.
+[2019.01.23-20.20.48:720][568]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Sidewalk_15.BrushComponent0) Component already registered.
+[2019.01.23-20.20.48:720][568]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Street_23.BrushComponent0) Component already registered.
+[2019.01.23-20.20.48:720][568]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Street_22.BrushComponent0) Component already registered.
+[2019.01.23-20.20.48:721][568]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush221.BrushComponent0) Component already registered.
+[2019.01.23-20.20.48:721][568]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Box_BenchSide_2.BrushComponent0) Component already registered.
+[2019.01.23-20.20.48:721][568]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Box_BenchSide_1.BrushComponent0) Component already registered.
+[2019.01.23-20.20.48:721][568]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush217.BrushComponent0) Component already registered.
+[2019.01.23-20.20.48:722][568]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush219.BrushComponent0) Component already registered.
+[2019.01.23-20.20.48:722][568]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush218.BrushComponent0) Component already registered.
+[2019.01.23-20.20.48:723][568]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Box_BenchSeat_14.BrushComponent0) Component already registered.
+[2019.01.23-20.20.48:723][568]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Box_BenchSeat_16.BrushComponent0) Component already registered.
+[2019.01.23-20.20.48:723][568]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.SphereBrush3.BrushComponent0) Component already registered.
+[2019.01.23-20.20.48:725][568]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Sidewalk_69.BrushComponent0) Component already registered.
+[2019.01.23-20.20.48:725][568]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Street_158.BrushComponent0) Component already registered.
+[2019.01.23-20.20.48:725][568]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Street_157.BrushComponent0) Component already registered.
+[2019.01.23-20.20.48:725][568]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush175.BrushComponent0) Component already registered.
+[2019.01.23-20.20.48:725][568]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush177.BrushComponent0) Component already registered.
+[2019.01.23-20.20.48:725][568]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush176.BrushComponent0) Component already registered.
+[2019.01.23-20.20.48:726][568]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush197.BrushComponent0) Component already registered.
+[2019.01.23-20.20.48:727][568]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush199.BrushComponent0) Component already registered.
+[2019.01.23-20.20.48:727][568]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush193.BrushComponent0) Component already registered.
+[2019.01.23-20.20.48:729][568]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush237.BrushComponent0) Component already registered.
+[2019.01.23-20.20.48:729][568]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush240.BrushComponent0) Component already registered.
+[2019.01.23-20.20.48:729][568]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.CylinderBrush22.BrushComponent0) Component already registered.
+[2019.01.23-20.20.48:731][568]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.SphereBrush43.BrushComponent0) Component already registered.
+[2019.01.23-20.20.48:731][568]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.CylinderBrush31.BrushComponent0) Component already registered.
+[2019.01.23-20.20.48:731][568]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.SphereBrush44.BrushComponent0) Component already registered.
+[2019.01.23-20.20.48:731][568]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.CylinderBrush8.BrushComponent0) Component already registered.
+[2019.01.23-20.20.48:731][568]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.CylinderBrush9.BrushComponent0) Component already registered.
+[2019.01.23-20.20.48:731][568]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush227.BrushComponent0) Component already registered.
+[2019.01.23-20.20.48:732][568]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush224.BrushComponent0) Component already registered.
+[2019.01.23-20.20.48:732][568]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush226.BrushComponent0) Component already registered.
+[2019.01.23-20.20.48:732][568]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush225.BrushComponent0) Component already registered.
+[2019.01.23-20.20.48:733][568]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.SphereBrush11.BrushComponent0) Component already registered.
+[2019.01.23-20.20.48:733][568]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush222.BrushComponent0) Component already registered.
+[2019.01.23-20.20.48:733][568]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.SphereBrush12.BrushComponent0) Component already registered.
+[2019.01.23-20.20.48:734][568]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush235.BrushComponent0) Component already registered.
+[2019.01.23-20.20.48:734][568]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.CylinderBrush13.BrushComponent0) Component already registered.
+[2019.01.23-20.21.15:917][ 97]Cmd: TRANSACTION UNDO
+[2019.01.23-20.21.15:918][ 97]LogEditorTransaction: Undo Rotate Actors
+[2019.01.23-20.21.16:199][ 97]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush34.BrushComponent0) Component already registered.
+[2019.01.23-20.21.16:200][ 97]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Street_78.BrushComponent0) Component already registered.
+[2019.01.23-20.21.16:201][ 97]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush48.BrushComponent0) Component already registered.
+[2019.01.23-20.21.16:201][ 97]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush23.BrushComponent0) Component already registered.
+[2019.01.23-20.21.16:203][ 97]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush85.BrushComponent0) Component already registered.
+[2019.01.23-20.21.16:203][ 97]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Street_118.BrushComponent0) Component already registered.
+[2019.01.23-20.21.16:204][ 97]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Street_125.BrushComponent0) Component already registered.
+[2019.01.23-20.21.16:206][ 97]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush71.BrushComponent0) Component already registered.
+[2019.01.23-20.21.16:206][ 97]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Sidewalk_51.BrushComponent0) Component already registered.
+[2019.01.23-20.21.16:207][ 97]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Street_8.BrushComponent0) Component already registered.
+[2019.01.23-20.21.16:252][ 97]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Street_18.BrushComponent0) Component already registered.
+[2019.01.23-20.21.16:255][ 97]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Box_BenchSeat_41.BrushComponent0) Component already registered.
+[2019.01.23-20.21.16:255][ 97]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.GroupActor_35.GroupComponent) Component already registered.
+[2019.01.23-20.21.16:256][ 97]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.SphereBrush20.BrushComponent0) Component already registered.
+[2019.01.23-20.21.16:256][ 97]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Box_BenchSide_18.BrushComponent0) Component already registered.
+[2019.01.23-20.21.16:259][ 97]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Street_47.BrushComponent0) Component already registered.
+[2019.01.23-20.21.16:260][ 97]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Street_39.BrushComponent0) Component already registered.
+[2019.01.23-20.21.16:262][ 97]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.CylinderBrush10.BrushComponent0) Component already registered.
+[2019.01.23-20.21.16:263][ 97]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.SphereBrush11.BrushComponent0) Component already registered.
+[2019.01.23-20.21.16:264][ 97]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Box_TableTop_1.BrushComponent0) Component already registered.
+[2019.01.23-20.21.16:267][ 97]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.SphereBrush36.BrushComponent0) Component already registered.
+[2019.01.23-20.21.16:268][ 97]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Box_BenchSide_13.BrushComponent0) Component already registered.
+[2019.01.23-20.21.16:272][ 97]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Street_131.BrushComponent0) Component already registered.
+[2019.01.23-20.21.16:273][ 97]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.BoxBrush116.BrushComponent0) Component already registered.
+[2019.01.23-20.21.16:273][ 97]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Street_166.BrushComponent0) Component already registered.
+[2019.01.23-20.21.16:277][ 97]LogActorComponent: ~FComponentReregisterContext: (/Game/SG_ICWBox_002.SG_ICWBox_002:PersistentLevel.Brush_Street_159.BrushComponent0) Component already registered.
+[2019.01.23-20.21.48:255][697]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.01.23-20.21.51:289][764]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.01.23-20.21.52:296][786]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.23-20.21.52:782][799]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.01.23-20.22.00:373][953]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.23-20.22.00:424][953]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SG_ICWBox_002" FILE="../../../../../../Users/Owner/Documents/SG_AssetPipeline/SG_ICWhiteBox_001/Content/SG_ICWBox_002.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.01.23-20.22.01:967][953]LogSavePackage: Moving '../../../../../../Users/Owner/Documents/SG_AssetPipeline/SG_ICWhiteBox_001/Saved/SG_ICWBox_002CCC6DB8B42108BA98563AEA0C238B302.tmp' to '../../../../../../Users/Owner/Documents/SG_AssetPipeline/SG_ICWhiteBox_001/Content/SG_ICWBox_002.umap'
+[2019.01.23-20.22.01:992][953]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SG_ICWBox_002_BuiltData" FILE="../../../../../../Users/Owner/Documents/SG_AssetPipeline/SG_ICWhiteBox_001/Content/SG_ICWBox_002_BuiltData.uasset" SILENT=true
+[2019.01.23-20.22.02:024][953]LogSavePackage: Moving '../../../../../../Users/Owner/Documents/SG_AssetPipeline/SG_ICWhiteBox_001/Saved/SG_ICWBox_002_BuiltData7E6722DE4816369A220D679F6208BC03.tmp' to '../../../../../../Users/Owner/Documents/SG_AssetPipeline/SG_ICWhiteBox_001/Content/SG_ICWBox_002_BuiltData.uasset'
+[2019.01.23-20.22.10:309][129]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.01.23-20.23.18:410][441]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.23-20.23.18:461][441]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SG_ICWBox_002" FILE="../../../../../../Users/Owner/Documents/SG_AssetPipeline/SG_ICWhiteBox_001/Content/SG_ICWBox_002.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.01.23-20.23.19:961][441]LogSavePackage: Moving '../../../../../../Users/Owner/Documents/SG_AssetPipeline/SG_ICWhiteBox_001/Saved/SG_ICWBox_002D476CC8C4436D5F7B78914B65BC37410.tmp' to '../../../../../../Users/Owner/Documents/SG_AssetPipeline/SG_ICWhiteBox_001/Content/SG_ICWBox_002.umap'
+[2019.01.23-20.23.19:986][441]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SG_ICWBox_002_BuiltData" FILE="../../../../../../Users/Owner/Documents/SG_AssetPipeline/SG_ICWhiteBox_001/Content/SG_ICWBox_002_BuiltData.uasset" SILENT=true
+[2019.01.23-20.23.20:005][441]LogSavePackage: Moving '../../../../../../Users/Owner/Documents/SG_AssetPipeline/SG_ICWhiteBox_001/Saved/SG_ICWBox_002_BuiltData0294C9E244EDC3CE23FABB9308933549.tmp' to '../../../../../../Users/Owner/Documents/SG_AssetPipeline/SG_ICWhiteBox_001/Content/SG_ICWBox_002_BuiltData.uasset'
+[2019.01.23-20.23.26:607][570]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere3)
+[2019.01.23-20.23.34:899][724]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.23-20.23.34:950][724]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SG_ICWBox_002" FILE="../../../../../../Users/Owner/Documents/SG_AssetPipeline/SG_ICWhiteBox_001/Content/SG_ICWBox_002.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.01.23-20.23.36:366][724]LogSavePackage: Moving '../../../../../../Users/Owner/Documents/SG_AssetPipeline/SG_ICWhiteBox_001/Saved/SG_ICWBox_00254432189448B8A22404BCD90457C0758.tmp' to '../../../../../../Users/Owner/Documents/SG_AssetPipeline/SG_ICWhiteBox_001/Content/SG_ICWBox_002.umap'
+[2019.01.23-20.23.36:389][724]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SG_ICWBox_002_BuiltData" FILE="../../../../../../Users/Owner/Documents/SG_AssetPipeline/SG_ICWhiteBox_001/Content/SG_ICWBox_002_BuiltData.uasset" SILENT=true
+[2019.01.23-20.23.36:407][724]LogSavePackage: Moving '../../../../../../Users/Owner/Documents/SG_AssetPipeline/SG_ICWhiteBox_001/Saved/SG_ICWBox_002_BuiltData55C286834F3285E5C9EFC8B0FE681C93.tmp' to '../../../../../../Users/Owner/Documents/SG_AssetPipeline/SG_ICWhiteBox_001/Content/SG_ICWBox_002_BuiltData.uasset'
+[2019.01.23-20.24.11:708][390]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.23-20.24.11:761][390]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SG_ICWBox_002" FILE="../../../../../../Users/Owner/Documents/SG_AssetPipeline/SG_ICWhiteBox_001/Content/SG_ICWBox_002.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.01.23-20.24.13:193][390]LogSavePackage: Moving '../../../../../../Users/Owner/Documents/SG_AssetPipeline/SG_ICWhiteBox_001/Saved/SG_ICWBox_002E11875B8476036E3A2E8308F9099C04F.tmp' to '../../../../../../Users/Owner/Documents/SG_AssetPipeline/SG_ICWhiteBox_001/Content/SG_ICWBox_002.umap'
+[2019.01.23-20.24.13:221][390]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SG_ICWBox_002_BuiltData" FILE="../../../../../../Users/Owner/Documents/SG_AssetPipeline/SG_ICWhiteBox_001/Content/SG_ICWBox_002_BuiltData.uasset" SILENT=true
+[2019.01.23-20.24.13:240][390]LogSavePackage: Moving '../../../../../../Users/Owner/Documents/SG_AssetPipeline/SG_ICWhiteBox_001/Saved/SG_ICWBox_002_BuiltData0986041C4E402BB1886592B626D50B23.tmp' to '../../../../../../Users/Owner/Documents/SG_AssetPipeline/SG_ICWhiteBox_001/Content/SG_ICWBox_002_BuiltData.uasset'
+[2019.01.23-20.24.15:774][446]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere4)
+[2019.01.23-20.24.17:608][480]LogSlate: FSceneViewport::OnFocusLost() reason 0
